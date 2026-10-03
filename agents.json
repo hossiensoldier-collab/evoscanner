@@ -1,0 +1,377 @@
+{
+  "runs": [
+    {
+      "ts": "2026-10-02T22:45:02.842121",
+      "results": {
+        "hunter": {
+          "new_queries": [
+            "python typing benchmark",
+            "python typing tutorial",
+            "python machine learning production",
+            "python machine learning patterns",
+            "python testing benchmark",
+            "python testing case study",
+            "python devops",
+            "python data",
+            "python patterns",
+            "python bots"
+          ],
+          "weak_cats": [
+            "devops",
+            "data",
+            "patterns",
+            "bots"
+          ]
+        },
+        "judge": {
+          "low_quality": 68,
+          "duplicates": 0,
+          "low_list": [
+            {
+              "title": "hoangquan0911/static-analyzer",
+              "source": "github",
+              "score": 0.0001
+            },
+            {
+              "title": "gajaguar/clockify-sdk",
+              "source": "github",
+              "score": 0.0
+            },
+            {
+              "title": "ogc16/WebScraper",
+              "source": "github",
+              "score": 0.0001
+            },
+            {
+              "title": "kiti481/Truck_logo_Design_Measurements",
+              "source": "github",
+              "score": 0.0001
+            },
+            {
+              "title": "gajaguar/bitbucket-sdk",
+              "source": "github",
+              "score": 0.0
+            },
+            {
+              "title": "crossbario/autobahn-python",
+              "source": "github",
+              "score": 0.2541
+            },
+            {
+              "title": "djust-org/djust",
+              "source": "github",
+              "score": 0.0096
+            },
+            {
+              "title": "yukthishetty/business-sales-analytics-dashboard",
+              "source": "github",
+              "score": 0.0
+            },
+            {
+              "title": "Luan1Schons/JsonPort",
+              "source": "github",
+              "score": 0.0004
+            },
+            {
+              "title": "suryansh458/deep-learning-cifar10-routing-net",
+              "source": "github",
+              "score": 0.0001
+            }
+          ]
+        },
+        "archivist": {
+          "reclassified": 137,
+          "nodes": 227,
+          "edges": 7
+        },
+        "critic": {
+          "issues": [
+            "منابع خاموش: gitlab",
+            "دسته‌های ضعیف: performance, testing, patterns, packaging, devops, bots"
+          ],
+          "total": 221,
+          "cats": 14
+        }
+      }
+    },
+    {
+      "ts": "2026-10-02T22:49:02.088554",
+      "results": {
+        "hunter": {
+          "new_queries": [
+            "python typing internals",
+            "python typing tutorial",
+            "python machine learning production",
+            "python machine learning case study",
+            "python testing production",
+            "python testing benchmark",
+            "python devops",
+            "python patterns",
+            "python bots"
+          ],
+          "weak_cats": [
+            "devops",
+            "patterns",
+            "bots"
+          ]
+        },
+        "judge": {
+          "low_quality": 83,
+          "duplicates": 0,
+          "low_list": [
+            {
+              "title": "hoangquan0911/static-analyzer",
+              "source": "github",
+              "score": 0.0001
+            },
+            {
+              "title": "gajaguar/clockify-sdk",
+              "source": "github",
+              "score": 0.0
+            },
+            {
+              "title": "ogc16/WebScraper",
+              "source": "github",
+              "score": 0.0001
+            },
+            {
+              "title": "kiti481/Truck_logo_Design_Measurements",
+              "source": "github",
+              "score": 0.0001
+            },
+            {
+              "title": "gajaguar/bitbucket-sdk",
+              "source": "github",
+              "score": 0.0
+            },
+            {
+              "title": "crossbario/autobahn-python",
+              "source": "github",
+              "score": 0.2541
+            },
+            {
+              "title": "djust-org/djust",
+              "source": "github",
+              "score": 0.0096
+            },
+            {
+              "title": "yukthishetty/business-sales-analytics-dashboard",
+              "source": "github",
+              "score": 0.0
+            },
+            {
+              "title": "Luan1Schons/JsonPort",
+              "source": "github",
+              "score": 0.0004
+            },
+            {
+              "title": "suryansh458/deep-learning-cifar10-routing-net",
+              "source": "github",
+              "score": 0.0001
+            }
+          ]
+        },
+        "archivist": {
+          "reclassified": 154,
+          "nodes": 250,
+          "edges": 7
+        },
+        "critic": {
+          "issues": [
+            "منابع خاموش: gitlab",
+            "دسته‌های ضعیف: testing, patterns, packaging, devops, bots"
+          ],
+          "total": 244,
+          "cats": 14
+        }
+      }
+    },
+    {
+      "ts": "2026-10-02T22:54:11.709617",
+      "results": {
+        "hunter": {
+          "new_queries": [
+            "python machine learning internals",
+            "python machine learning advanced",
+            "python typing patterns",
+            "python typing production",
+            "python testing internals",
+            "python testing patterns",
+            "python devops",
+            "python patterns",
+            "python bots"
+          ],
+          "weak_cats": [
+            "devops",
+            "patterns",
+            "bots"
+          ]
+        },
+        "judge": {
+          "low_quality": 11,
+          "duplicates": 0,
+          "deleted": 90,
+          "low_list": [
+            {
+              "title": "crossbario/autobahn-python",
+              "source": "github",
+              "score": 0.2541
+            },
+            {
+              "title": "dgunning/edgartools",
+              "source": "github",
+              "score": 0.2762
+            },
+            {
+              "title": "bczsalba/pytermgui",
+              "source": "github",
+              "score": 0.2671
+            },
+            {
+              "title": "ariebovenberg/whenever",
+              "source": "github",
+              "score": 0.2406
+            },
+            {
+              "title": "GeorgeSeif/Semantic-Segmentation-Suite",
+              "source": "github",
+              "score": 0.2521
+            },
+            {
+              "title": "widgetti/solara",
+              "source": "github",
+              "score": 0.218
+            },
+            {
+              "title": "python/typing",
+              "source": "github",
+              "score": 0.1786
+            },
+            {
+              "title": "tschellenbach/Django-facebook",
+              "source": "github",
+              "score": 0.2838
+            },
+            {
+              "title": "dipy/dipy",
+              "source": "github",
+              "score": 0.1694
+            },
+            {
+              "title": "robotframework/SeleniumLibrary",
+              "source": "github",
+              "score": 0.2952
+            }
+          ]
+        },
+        "archivist": {
+          "reclassified": 111,
+          "nodes": 343,
+          "edges": 149
+        },
+        "critic": {
+          "issues": [
+            "منابع خاموش: gitlab",
+            "دسته‌های ضعیف: testing, data, patterns, packaging, devops, bots",
+            "پایگاه کوچک: 196 منبع (هدف ۲۰۰+)"
+          ],
+          "total": 196,
+          "cats": 14
+        }
+      }
+    },
+    {
+      "ts": "2026-10-02T23:57:31.128717",
+      "results": {
+        "hunter": {
+          "new_queries": [
+            "python machine learning patterns",
+            "python machine learning production",
+            "python testing advanced",
+            "python testing tutorial",
+            "python typing internals",
+            "python typing 2025",
+            "python packaging",
+            "python bots",
+            "python patterns"
+          ],
+          "weak_cats": [
+            "packaging",
+            "bots",
+            "patterns"
+          ]
+        },
+        "judge": {
+          "low_quality": 11,
+          "duplicates": 0,
+          "deleted": 29,
+          "low_list": [
+            {
+              "title": "crossbario/autobahn-python",
+              "source": "github",
+              "score": 0.2541
+            },
+            {
+              "title": "dgunning/edgartools",
+              "source": "github",
+              "score": 0.2762
+            },
+            {
+              "title": "bczsalba/pytermgui",
+              "source": "github",
+              "score": 0.2671
+            },
+            {
+              "title": "ariebovenberg/whenever",
+              "source": "github",
+              "score": 0.2406
+            },
+            {
+              "title": "GeorgeSeif/Semantic-Segmentation-Suite",
+              "source": "github",
+              "score": 0.2521
+            },
+            {
+              "title": "widgetti/solara",
+              "source": "github",
+              "score": 0.218
+            },
+            {
+              "title": "python/typing",
+              "source": "github",
+              "score": 0.1786
+            },
+            {
+              "title": "tschellenbach/Django-facebook",
+              "source": "github",
+              "score": 0.2838
+            },
+            {
+              "title": "dipy/dipy",
+              "source": "github",
+              "score": 0.1694
+            },
+            {
+              "title": "robotframework/SeleniumLibrary",
+              "source": "github",
+              "score": 0.2952
+            }
+          ]
+        },
+        "archivist": {
+          "reclassified": 83,
+          "nodes": 574,
+          "edges": 1157
+        },
+        "critic": {
+          "issues": [
+            "منابع خاموش: gitlab",
+            "دسته‌های ضعیف: patterns, packaging"
+          ],
+          "total": 201,
+          "cats": 14
+        }
+      }
+    }
+  ]
+}
