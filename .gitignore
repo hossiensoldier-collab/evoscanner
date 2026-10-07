@@ -78,3 +78,16 @@ agents/
 tools/
 web/
 features/
+
+ngrok*
+organize.py
+STRUCTURE.md
+webapp/8.8.8.8*
+webapp/ENDONLINE
+webapp/cloudflared
+webapp/echo
+core/
+agents/
+tools/
+web/
+features/
