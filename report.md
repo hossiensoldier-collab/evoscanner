@@ -1,16 +1,16 @@
 # گزارش EvoScanner v0.2
 
-**تاریخ:** 2026-10-03 04:41
-**چرخه:** 30
-**کل منابع:** 240
+**تاریخ:** 2026-10-07 14:44
+**چرخه:** 187
+**کل منابع:** 275
 
 ## آمار منابع
 
 | منبع | تعداد | میانگین امتیاز |
 |---|---|---|
-| arxiv | 27 | 0.85 |
+| arxiv | 70 | 0.85 |
 | devto | 5 | 0.60 |
-| github | 179 | 0.70 |
+| github | 171 | 0.79 |
 | stackoverflow | 29 | 1.00 |
 
 ## بهترین منابع گیت‌هاب
@@ -43,25 +43,26 @@
 
 | دسته | تعداد | میانگین امتیاز |
 |---|---|---|
-| ml-ai | 77 | 0.74 |
-| web | 54 | 0.78 |
-| testing | 17 | 0.65 |
-| async | 16 | 0.92 |
-| performance | 15 | 0.51 |
-| other | 14 | 0.73 |
-| typing | 10 | 0.85 |
-| security | 8 | 0.59 |
-| devops | 8 | 0.85 |
-| parsing | 6 | 0.96 |
-| data | 6 | 0.71 |
-| packaging | 4 | 0.79 |
-| bots | 3 | 0.80 |
-| patterns | 2 | 1.00 |
+| ml-ai | 101 | 0.82 |
+| web | 57 | 0.80 |
+| performance | 15 | 0.83 |
+| async | 15 | 0.92 |
+| testing | 14 | 0.85 |
+| typing | 13 | 0.77 |
+| devops | 13 | 0.82 |
+| other | 10 | 0.91 |
+| automation | 10 | 0.85 |
+| security | 6 | 0.78 |
+| parsing | 5 | 1.00 |
+| packaging | 5 | 0.74 |
+| data | 4 | 0.82 |
+| bots | 4 | 0.67 |
+| patterns | 3 | 0.75 |
 
 ## برترین منابع هر دسته
 
 
-### ml-ai (77 مورد)
+### ml-ai (101 مورد)
 
 - [huggingface/transformers](https://github.com/huggingface/transformers) — `github` ⭐ 1.00
 - [fighting41love/funNLP](https://github.com/fighting41love/funNLP) — `github` ⭐ 1.00
@@ -69,29 +70,13 @@
 - [gradio-app/gradio](https://github.com/gradio-app/gradio) — `github` ⭐ 1.00
 - [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) — `github` ⭐ 1.00
 
-### web (54 مورد)
+### web (57 مورد)
 
 - [fastapi/fastapi](https://github.com/fastapi/fastapi) — `github` ⭐ 1.00
-- [home-assistant/core](https://github.com/home-assistant/core) — `github` ⭐ 1.00
 - [sanic-org/sanic](https://github.com/sanic-org/sanic) — `github` ⭐ 1.00
 - [encode/httpx](https://github.com/encode/httpx) — `github` ⭐ 1.00
 - [Ebazhanov/linkedin-skill-assessments-quizzes](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes) — `github` ⭐ 1.00
-
-### testing (17 مورد)
-
-- [localstack/localstack](https://github.com/localstack/localstack) — `github` ⭐ 1.00
-- [How do I pass a variable by reference?](https://stackoverflow.com/questions/986006/how-do-i-pass-a-variable-by-reference) — `stackoverflow` ⭐ 1.00
-- [How do I check if a string represents a number (float or int)?](https://stackoverflow.com/questions/354038/how-do-i-check-if-a-string-represents-a-number-float-or-int) — `stackoverflow` ⭐ 1.00
-- [Running unittest with typical test directory structure](https://stackoverflow.com/questions/1896918/running-unittest-with-typical-test-directory-structure) — `stackoverflow` ⭐ 1.00
-- [joke2k/faker](https://github.com/joke2k/faker) — `github` ⭐ 1.00
-
-### async (16 مورد)
-
-- [aio-libs/aiohttp](https://github.com/aio-libs/aiohttp) — `github` ⭐ 1.00
-- [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser) — `github` ⭐ 1.00
-- [locustio/locust](https://github.com/locustio/locust) — `github` ⭐ 1.00
-- [multiprocessing vs multithreading vs asyncio](https://stackoverflow.com/questions/27435284/multiprocessing-vs-multithreading-vs-asyncio) — `stackoverflow` ⭐ 1.00
-- [How could I use requests in asyncio?](https://stackoverflow.com/questions/22190403/how-could-i-use-requests-in-asyncio) — `stackoverflow` ⭐ 1.00
+- [fastapi/typer](https://github.com/fastapi/typer) — `github` ⭐ 1.00
 
 ### performance (15 مورد)
 
@@ -101,15 +86,23 @@
 - [joerick/pyinstrument](https://github.com/joerick/pyinstrument) — `github` ⭐ 1.00
 - [plasma-umass/scalene](https://github.com/plasma-umass/scalene) — `github` ⭐ 1.00
 
-### other (14 مورد)
+### async (15 مورد)
 
-- [Is Python interpreted, or compiled, or both?](https://stackoverflow.com/questions/6889747/is-python-interpreted-or-compiled-or-both) — `stackoverflow` ⭐ 1.00
-- [How do I execute a program or call a system command?](https://stackoverflow.com/questions/89228/how-do-i-execute-a-program-or-call-a-system-command) — `stackoverflow` ⭐ 1.00
-- [Why is &quot;1000000000000000 in range(1000000000000001)&quot; so fast in Python 3?](https://stackoverflow.com/questions/30081275/why-is-1000000000000000-in-range1000000000000001-so-fast-in-python-3) — `stackoverflow` ⭐ 1.00
-- [How can I determine a Python variable&#39;s type?](https://stackoverflow.com/questions/402504/how-can-i-determine-a-python-variables-type) — `stackoverflow` ⭐ 1.00
-- [What&#39;s the canonical way to check for type in Python?](https://stackoverflow.com/questions/152580/whats-the-canonical-way-to-check-for-type-in-python) — `stackoverflow` ⭐ 1.00
+- [aio-libs/aiohttp](https://github.com/aio-libs/aiohttp) — `github` ⭐ 1.00
+- [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser) — `github` ⭐ 1.00
+- [locustio/locust](https://github.com/locustio/locust) — `github` ⭐ 1.00
+- [multiprocessing vs multithreading vs asyncio](https://stackoverflow.com/questions/27435284/multiprocessing-vs-multithreading-vs-asyncio) — `stackoverflow` ⭐ 1.00
+- [How could I use requests in asyncio?](https://stackoverflow.com/questions/22190403/how-could-i-use-requests-in-asyncio) — `stackoverflow` ⭐ 1.00
 
-### typing (10 مورد)
+### testing (14 مورد)
+
+- [localstack/localstack](https://github.com/localstack/localstack) — `github` ⭐ 1.00
+- [How do I pass a variable by reference?](https://stackoverflow.com/questions/986006/how-do-i-pass-a-variable-by-reference) — `stackoverflow` ⭐ 1.00
+- [How do I check if a string represents a number (float or int)?](https://stackoverflow.com/questions/354038/how-do-i-check-if-a-string-represents-a-number-float-or-int) — `stackoverflow` ⭐ 1.00
+- [Running unittest with typical test directory structure](https://stackoverflow.com/questions/1896918/running-unittest-with-typical-test-directory-structure) — `stackoverflow` ⭐ 1.00
+- [joke2k/faker](https://github.com/joke2k/faker) — `github` ⭐ 1.00
+
+### typing (13 مورد)
 
 - [pydantic/pydantic](https://github.com/pydantic/pydantic) — `github` ⭐ 1.00
 - [python/mypy](https://github.com/python/mypy) — `github` ⭐ 1.00
@@ -117,37 +110,46 @@
 - [microsoft/pyright](https://github.com/microsoft/pyright) — `github` ⭐ 1.00
 - [vibora-io/vibora](https://github.com/vibora-io/vibora) — `github` ⭐ 1.00
 
-### security (8 مورد)
+### devops (13 مورد)
 
-- [GreyDGL/PentestGPT](https://github.com/GreyDGL/PentestGPT) — `github` ⭐ 1.00
-- [Manisso/fsociety](https://github.com/Manisso/fsociety) — `github` ⭐ 1.00
-- [OWASP/Nettacker](https://github.com/OWASP/Nettacker) — `github` ⭐ 1.00
-- [jpadilla/django-rest-framework-jwt](https://github.com/jpadilla/django-rest-framework-jwt) — `github` ⭐ 0.63
-- [RhinoSecurityLabs/pacu](https://github.com/RhinoSecurityLabs/pacu) — `github` ⭐ 0.53
+- [rocketride-org/rocketride-server](https://github.com/rocketride-org/rocketride-server) — `github` ⭐ 1.00
+- [postmanlabs/httpbin](https://github.com/postmanlabs/httpbin) — `github` ⭐ 1.00
+- [aws/aws-sam-cli](https://github.com/aws/aws-sam-cli) — `github` ⭐ 1.00
+- [doccano/doccano](https://github.com/doccano/doccano) — `github` ⭐ 1.00
+- [mdbloice/Augmentor](https://github.com/mdbloice/Augmentor) — `github` ⭐ 1.00
+
+### other (10 مورد)
+
+- [Is Python interpreted, or compiled, or both?](https://stackoverflow.com/questions/6889747/is-python-interpreted-or-compiled-or-both) — `stackoverflow` ⭐ 1.00
+- [How do I execute a program or call a system command?](https://stackoverflow.com/questions/89228/how-do-i-execute-a-program-or-call-a-system-command) — `stackoverflow` ⭐ 1.00
+- [Why is &quot;1000000000000000 in range(1000000000000001)&quot; so fast in Python 3?](https://stackoverflow.com/questions/30081275/why-is-1000000000000000-in-range1000000000000001-so-fast-in-python-3) — `stackoverflow` ⭐ 1.00
+- [How can I determine a Python variable&#39;s type?](https://stackoverflow.com/questions/402504/how-can-i-determine-a-python-variables-type) — `stackoverflow` ⭐ 1.00
+- [What&#39;s the canonical way to check for type in Python?](https://stackoverflow.com/questions/152580/whats-the-canonical-way-to-check-for-type-in-python) — `stackoverflow` ⭐ 1.00
 
 ## دسته‌بندی منابع
 
 | دسته | تعداد | میانگین امتیاز |
 |---|---|---|
-| ml-ai | 77 | 0.74 |
-| web | 54 | 0.78 |
-| testing | 17 | 0.65 |
-| async | 16 | 0.92 |
-| performance | 15 | 0.51 |
-| other | 14 | 0.73 |
-| typing | 10 | 0.85 |
-| security | 8 | 0.59 |
-| devops | 8 | 0.85 |
-| parsing | 6 | 0.96 |
-| data | 6 | 0.71 |
-| packaging | 4 | 0.79 |
-| bots | 3 | 0.80 |
-| patterns | 2 | 1.00 |
+| ml-ai | 101 | 0.82 |
+| web | 57 | 0.80 |
+| performance | 15 | 0.83 |
+| async | 15 | 0.92 |
+| testing | 14 | 0.85 |
+| typing | 13 | 0.77 |
+| devops | 13 | 0.82 |
+| other | 10 | 0.91 |
+| automation | 10 | 0.85 |
+| security | 6 | 0.78 |
+| parsing | 5 | 1.00 |
+| packaging | 5 | 0.74 |
+| data | 4 | 0.82 |
+| bots | 4 | 0.67 |
+| patterns | 3 | 0.75 |
 
 ## برترین منابع هر دسته
 
 
-### ml-ai (77 مورد)
+### ml-ai (101 مورد)
 
 - [huggingface/transformers](https://github.com/huggingface/transformers) — `github` ⭐ 1.00
 - [fighting41love/funNLP](https://github.com/fighting41love/funNLP) — `github` ⭐ 1.00
@@ -155,29 +157,13 @@
 - [gradio-app/gradio](https://github.com/gradio-app/gradio) — `github` ⭐ 1.00
 - [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) — `github` ⭐ 1.00
 
-### web (54 مورد)
+### web (57 مورد)
 
 - [fastapi/fastapi](https://github.com/fastapi/fastapi) — `github` ⭐ 1.00
-- [home-assistant/core](https://github.com/home-assistant/core) — `github` ⭐ 1.00
 - [sanic-org/sanic](https://github.com/sanic-org/sanic) — `github` ⭐ 1.00
 - [encode/httpx](https://github.com/encode/httpx) — `github` ⭐ 1.00
 - [Ebazhanov/linkedin-skill-assessments-quizzes](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes) — `github` ⭐ 1.00
-
-### testing (17 مورد)
-
-- [localstack/localstack](https://github.com/localstack/localstack) — `github` ⭐ 1.00
-- [How do I pass a variable by reference?](https://stackoverflow.com/questions/986006/how-do-i-pass-a-variable-by-reference) — `stackoverflow` ⭐ 1.00
-- [How do I check if a string represents a number (float or int)?](https://stackoverflow.com/questions/354038/how-do-i-check-if-a-string-represents-a-number-float-or-int) — `stackoverflow` ⭐ 1.00
-- [Running unittest with typical test directory structure](https://stackoverflow.com/questions/1896918/running-unittest-with-typical-test-directory-structure) — `stackoverflow` ⭐ 1.00
-- [joke2k/faker](https://github.com/joke2k/faker) — `github` ⭐ 1.00
-
-### async (16 مورد)
-
-- [aio-libs/aiohttp](https://github.com/aio-libs/aiohttp) — `github` ⭐ 1.00
-- [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser) — `github` ⭐ 1.00
-- [locustio/locust](https://github.com/locustio/locust) — `github` ⭐ 1.00
-- [multiprocessing vs multithreading vs asyncio](https://stackoverflow.com/questions/27435284/multiprocessing-vs-multithreading-vs-asyncio) — `stackoverflow` ⭐ 1.00
-- [How could I use requests in asyncio?](https://stackoverflow.com/questions/22190403/how-could-i-use-requests-in-asyncio) — `stackoverflow` ⭐ 1.00
+- [fastapi/typer](https://github.com/fastapi/typer) — `github` ⭐ 1.00
 
 ### performance (15 مورد)
 
@@ -187,15 +173,23 @@
 - [joerick/pyinstrument](https://github.com/joerick/pyinstrument) — `github` ⭐ 1.00
 - [plasma-umass/scalene](https://github.com/plasma-umass/scalene) — `github` ⭐ 1.00
 
-### other (14 مورد)
+### async (15 مورد)
 
-- [Is Python interpreted, or compiled, or both?](https://stackoverflow.com/questions/6889747/is-python-interpreted-or-compiled-or-both) — `stackoverflow` ⭐ 1.00
-- [How do I execute a program or call a system command?](https://stackoverflow.com/questions/89228/how-do-i-execute-a-program-or-call-a-system-command) — `stackoverflow` ⭐ 1.00
-- [Why is &quot;1000000000000000 in range(1000000000000001)&quot; so fast in Python 3?](https://stackoverflow.com/questions/30081275/why-is-1000000000000000-in-range1000000000000001-so-fast-in-python-3) — `stackoverflow` ⭐ 1.00
-- [How can I determine a Python variable&#39;s type?](https://stackoverflow.com/questions/402504/how-can-i-determine-a-python-variables-type) — `stackoverflow` ⭐ 1.00
-- [What&#39;s the canonical way to check for type in Python?](https://stackoverflow.com/questions/152580/whats-the-canonical-way-to-check-for-type-in-python) — `stackoverflow` ⭐ 1.00
+- [aio-libs/aiohttp](https://github.com/aio-libs/aiohttp) — `github` ⭐ 1.00
+- [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser) — `github` ⭐ 1.00
+- [locustio/locust](https://github.com/locustio/locust) — `github` ⭐ 1.00
+- [multiprocessing vs multithreading vs asyncio](https://stackoverflow.com/questions/27435284/multiprocessing-vs-multithreading-vs-asyncio) — `stackoverflow` ⭐ 1.00
+- [How could I use requests in asyncio?](https://stackoverflow.com/questions/22190403/how-could-i-use-requests-in-asyncio) — `stackoverflow` ⭐ 1.00
 
-### typing (10 مورد)
+### testing (14 مورد)
+
+- [localstack/localstack](https://github.com/localstack/localstack) — `github` ⭐ 1.00
+- [How do I pass a variable by reference?](https://stackoverflow.com/questions/986006/how-do-i-pass-a-variable-by-reference) — `stackoverflow` ⭐ 1.00
+- [How do I check if a string represents a number (float or int)?](https://stackoverflow.com/questions/354038/how-do-i-check-if-a-string-represents-a-number-float-or-int) — `stackoverflow` ⭐ 1.00
+- [Running unittest with typical test directory structure](https://stackoverflow.com/questions/1896918/running-unittest-with-typical-test-directory-structure) — `stackoverflow` ⭐ 1.00
+- [joke2k/faker](https://github.com/joke2k/faker) — `github` ⭐ 1.00
+
+### typing (13 مورد)
 
 - [pydantic/pydantic](https://github.com/pydantic/pydantic) — `github` ⭐ 1.00
 - [python/mypy](https://github.com/python/mypy) — `github` ⭐ 1.00
@@ -203,13 +197,21 @@
 - [microsoft/pyright](https://github.com/microsoft/pyright) — `github` ⭐ 1.00
 - [vibora-io/vibora](https://github.com/vibora-io/vibora) — `github` ⭐ 1.00
 
-### security (8 مورد)
+### devops (13 مورد)
 
-- [GreyDGL/PentestGPT](https://github.com/GreyDGL/PentestGPT) — `github` ⭐ 1.00
-- [Manisso/fsociety](https://github.com/Manisso/fsociety) — `github` ⭐ 1.00
-- [OWASP/Nettacker](https://github.com/OWASP/Nettacker) — `github` ⭐ 1.00
-- [jpadilla/django-rest-framework-jwt](https://github.com/jpadilla/django-rest-framework-jwt) — `github` ⭐ 0.63
-- [RhinoSecurityLabs/pacu](https://github.com/RhinoSecurityLabs/pacu) — `github` ⭐ 0.53
+- [rocketride-org/rocketride-server](https://github.com/rocketride-org/rocketride-server) — `github` ⭐ 1.00
+- [postmanlabs/httpbin](https://github.com/postmanlabs/httpbin) — `github` ⭐ 1.00
+- [aws/aws-sam-cli](https://github.com/aws/aws-sam-cli) — `github` ⭐ 1.00
+- [doccano/doccano](https://github.com/doccano/doccano) — `github` ⭐ 1.00
+- [mdbloice/Augmentor](https://github.com/mdbloice/Augmentor) — `github` ⭐ 1.00
+
+### other (10 مورد)
+
+- [Is Python interpreted, or compiled, or both?](https://stackoverflow.com/questions/6889747/is-python-interpreted-or-compiled-or-both) — `stackoverflow` ⭐ 1.00
+- [How do I execute a program or call a system command?](https://stackoverflow.com/questions/89228/how-do-i-execute-a-program-or-call-a-system-command) — `stackoverflow` ⭐ 1.00
+- [Why is &quot;1000000000000000 in range(1000000000000001)&quot; so fast in Python 3?](https://stackoverflow.com/questions/30081275/why-is-1000000000000000-in-range1000000000000001-so-fast-in-python-3) — `stackoverflow` ⭐ 1.00
+- [How can I determine a Python variable&#39;s type?](https://stackoverflow.com/questions/402504/how-can-i-determine-a-python-variables-type) — `stackoverflow` ⭐ 1.00
+- [What&#39;s the canonical way to check for type in Python?](https://stackoverflow.com/questions/152580/whats-the-canonical-way-to-check-for-type-in-python) — `stackoverflow` ⭐ 1.00
 
 ## کوئری‌های فعال
 

@@ -62,3 +62,4 @@ def path(kb, topic):
 
     print(f"\n  جمع: {total} منبع مرتبط")
     return total
+

@@ -101,3 +101,4 @@ def export_all(kb):
         if n < 100:
             to_json(kb, cat)
     print(f"\n  همه فایل‌ها در: {OUT}")
+

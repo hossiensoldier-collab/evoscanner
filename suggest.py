@@ -69,3 +69,4 @@ def suggest(kb, top_n=5):
             print(f"  ! خطا: {e}")
 
     return suggestions
+

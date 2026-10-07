@@ -213,3 +213,4 @@ class SelfMod:
         for i, c in enumerate(changes, 1):
             print(f"  {i}. [{c['ts'][:16]}] {c['desc']}")
             print(f"     پشتیبان: {Path(c['backup']).name}")
+

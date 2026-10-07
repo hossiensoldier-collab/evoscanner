@@ -74,3 +74,4 @@ def goal_queries(goal_key):
     out = []
     for _, qs in GOALS[goal_key]["levels"]: out.extend(qs)
     return out
+

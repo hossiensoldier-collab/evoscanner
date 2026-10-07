@@ -91,3 +91,4 @@ def enrich_top(kb, limit=100, min_score=0.3, skip_short=True):
     kb.conn.commit()
     print(f"\n✓ {ok} موفق | ✗ {fail} رد")
     return ok
+

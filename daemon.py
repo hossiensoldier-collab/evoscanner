@@ -43,8 +43,11 @@ def one_pass():
     run_step("run-cycles",    ["run", "2"], 300)
     run_step("enrich",        ["enrich", "30"], 300)
     run_step("rebuild-graph", ["rebuild"], 120)
+    run_step("learn",         ["learn"], 60)
     run_step("agents",        ["agents"], 300)
     run_step("export",        ["export"], 120)
+    # هر پاس: فشرده‌سازی سبک
+    run_step("compress",      ["compress"], 120)
     log("پایان چرخه")
     log("═" * 50)
 
@@ -72,3 +75,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

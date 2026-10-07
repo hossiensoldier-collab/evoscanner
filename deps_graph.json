@@ -1,0 +1,6999 @@
+{
+  "edges": {
+    "transformers|requires|deps": {
+      "a": "transformers",
+      "b": "deps",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scikit-learn|requires|joblib": {
+      "a": "scikit-learn",
+      "b": "joblib",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scikit-learn|requires|scipy": {
+      "a": "scikit-learn",
+      "b": "scipy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scikit-learn|requires|narwhals": {
+      "a": "scikit-learn",
+      "b": "narwhals",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scikit-learn|requires|threadpoolctl": {
+      "a": "scikit-learn",
+      "b": "threadpoolctl",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scikit-learn|requires|numpy": {
+      "a": "scikit-learn",
+      "b": "numpy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "aiohttp|requires|typing_extensions": {
+      "a": "aiohttp",
+      "b": "typing_extensions",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "aiohttp|requires|frozenlist": {
+      "a": "aiohttp",
+      "b": "frozenlist",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "aiohttp|requires|propcache": {
+      "a": "aiohttp",
+      "b": "propcache",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "aiohttp|requires|multidict": {
+      "a": "aiohttp",
+      "b": "multidict",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "aiohttp|requires|yarl": {
+      "a": "aiohttp",
+      "b": "yarl",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "aiohttp|requires|async-timeout": {
+      "a": "aiohttp",
+      "b": "async-timeout",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "aiohttp|requires|aiohappyeyeballs": {
+      "a": "aiohttp",
+      "b": "aiohappyeyeballs",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "aiohttp|requires|aiosignal": {
+      "a": "aiohttp",
+      "b": "aiosignal",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "fastapi|requires|opentelemetry-api": {
+      "a": "fastapi",
+      "b": "opentelemetry-api",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "fastapi|requires|pydantic": {
+      "a": "fastapi",
+      "b": "pydantic",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "fastapi|requires|typing-inspection": {
+      "a": "fastapi",
+      "b": "typing-inspection",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "fastapi|requires|annotated-doc": {
+      "a": "fastapi",
+      "b": "annotated-doc",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "fastapi|requires|starlette": {
+      "a": "fastapi",
+      "b": "starlette",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "fastapi|requires|typing-extensions": {
+      "a": "fastapi",
+      "b": "typing-extensions",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "gradio|requires|huggingface_hub": {
+      "a": "gradio",
+      "b": "huggingface_hub",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "gradio|requires|orjson": {
+      "a": "gradio",
+      "b": "orjson",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "gradio|requires|fastapi": {
+      "a": "gradio",
+      "b": "fastapi",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "gradio|requires|semantic_version": {
+      "a": "gradio",
+      "b": "semantic_version",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "gradio|requires|brotli": {
+      "a": "gradio",
+      "b": "brotli",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "gradio|requires|tomlkit": {
+      "a": "gradio",
+      "b": "tomlkit",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "gradio|requires|httpx": {
+      "a": "gradio",
+      "b": "httpx",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "gradio|requires|numpy": {
+      "a": "gradio",
+      "b": "numpy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "gradio|requires|pydub": {
+      "a": "gradio",
+      "b": "pydub",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "gradio|requires|pydantic": {
+      "a": "gradio",
+      "b": "pydantic",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "gradio|requires|hf-gradio": {
+      "a": "gradio",
+      "b": "hf-gradio",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "gradio|requires|starlette": {
+      "a": "gradio",
+      "b": "starlette",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "gradio|requires|pillow": {
+      "a": "gradio",
+      "b": "pillow",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "gradio|requires|typer": {
+      "a": "gradio",
+      "b": "typer",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "gradio|requires|groovy": {
+      "a": "gradio",
+      "b": "groovy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "gradio|requires|anyio": {
+      "a": "gradio",
+      "b": "anyio",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "gradio|requires|jinja2": {
+      "a": "gradio",
+      "b": "jinja2",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "gradio|requires|packaging": {
+      "a": "gradio",
+      "b": "packaging",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "gradio|requires|pandas": {
+      "a": "gradio",
+      "b": "pandas",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "gradio|requires|python-multipart": {
+      "a": "gradio",
+      "b": "python-multipart",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "gradio|requires|uvicorn": {
+      "a": "gradio",
+      "b": "uvicorn",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "gradio|requires|audioop-lts": {
+      "a": "gradio",
+      "b": "audioop-lts",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "gradio|requires|typing_extensions": {
+      "a": "gradio",
+      "b": "typing_extensions",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "gradio|requires|pytz": {
+      "a": "gradio",
+      "b": "pytz",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "gradio|requires|markupsafe": {
+      "a": "gradio",
+      "b": "markupsafe",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "gradio|requires|safehttpx": {
+      "a": "gradio",
+      "b": "safehttpx",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "gradio|requires|pyyaml": {
+      "a": "gradio",
+      "b": "pyyaml",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "gradio|requires|gradio_client": {
+      "a": "gradio",
+      "b": "gradio_client",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|requests": {
+      "a": "core",
+      "b": "requests",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|# 3.12.0, which causes memory use to balloon, has been adjusted or a workaround": {
+      "a": "core",
+      "b": "# 3.12.0, which causes memory use to balloon, has been adjusted or a workaround",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|aiohttp-asyncmdnsresolver": {
+      "a": "core",
+      "b": "aiohttp-asyncmdnsresolver",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|# aiogithubapi is needed by frontend": {
+      "a": "core",
+      "b": "# aiogithubapi is needed by frontend",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|orjson": {
+      "a": "core",
+      "b": "orjson",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|sqlalchemy": {
+      "a": "core",
+      "b": "sqlalchemy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|ulid-transform": {
+      "a": "core",
+      "b": "ulid-transform",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|pyopenssl": {
+      "a": "core",
+      "b": "pyopenssl",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|# requirements.txt to ensure they are always installed": {
+      "a": "core",
+      "b": "# requirements.txt to ensure they are always installed",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|home-assistant-intents": {
+      "a": "core",
+      "b": "home-assistant-intents",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|pyturbojpeg": {
+      "a": "core",
+      "b": "pyturbojpeg",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|httpx": {
+      "a": "core",
+      "b": "httpx",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|psutil-home-assistant": {
+      "a": "core",
+      "b": "psutil-home-assistant",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|uv": {
+      "a": "core",
+      "b": "uv",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|aiohttp": {
+      "a": "core",
+      "b": "aiohttp",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|atomicwrites-homeassistant": {
+      "a": "core",
+      "b": "atomicwrites-homeassistant",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|cronsim": {
+      "a": "core",
+      "b": "cronsim",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|infrared-protocols": {
+      "a": "core",
+      "b": "infrared-protocols",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|rf-protocols": {
+      "a": "core",
+      "b": "rf-protocols",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|ifaddr": {
+      "a": "core",
+      "b": "ifaddr",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|securetar": {
+      "a": "core",
+      "b": "securetar",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|python-slugify": {
+      "a": "core",
+      "b": "python-slugify",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|probatio": {
+      "a": "core",
+      "b": "probatio",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|aiohttp_cors": {
+      "a": "core",
+      "b": "aiohttp_cors",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|ciso8601": {
+      "a": "core",
+      "b": "ciso8601",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|# do not bump orjson until the very aggressive buffer resizing introduced in": {
+      "a": "core",
+      "b": "# do not bump orjson until the very aggressive buffer resizing introduced in",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|webrtc-models": {
+      "a": "core",
+      "b": "webrtc-models",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|ha-ffmpeg": {
+      "a": "core",
+      "b": "ha-ffmpeg",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|typing-extensions": {
+      "a": "core",
+      "b": "typing-extensions",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|hass-nabucasa": {
+      "a": "core",
+      "b": "hass-nabucasa",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|cryptography": {
+      "a": "core",
+      "b": "cryptography",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|attrs": {
+      "a": "core",
+      "b": "attrs",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|async-interrupt": {
+      "a": "core",
+      "b": "async-interrupt",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|pillow": {
+      "a": "core",
+      "b": "pillow",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|hassil": {
+      "a": "core",
+      "b": "hassil",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|annotatedyaml": {
+      "a": "core",
+      "b": "annotatedyaml",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|# module level in `bootstrap.py` and its requirements thus need to be in": {
+      "a": "core",
+      "b": "# module level in `bootstrap.py` and its requirements thus need to be in",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|fnv-hash-fast": {
+      "a": "core",
+      "b": "fnv-hash-fast",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|# integration": {
+      "a": "core",
+      "b": "# integration",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|propcache": {
+      "a": "core",
+      "b": "propcache",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|# pyjwt has loose dependency. we want the latest one.": {
+      "a": "core",
+      "b": "# pyjwt has loose dependency. we want the latest one.",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|pyspeex-noise": {
+      "a": "core",
+      "b": "pyspeex-noise",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|gazetteer-matcher": {
+      "a": "core",
+      "b": "gazetteer-matcher",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|mutagen": {
+      "a": "core",
+      "b": "mutagen",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|jinja2": {
+      "a": "core",
+      "b": "jinja2",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|home-assistant-bluetooth": {
+      "a": "core",
+      "b": "home-assistant-bluetooth",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|packaging": {
+      "a": "core",
+      "b": "packaging",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|urllib3": {
+      "a": "core",
+      "b": "urllib3",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|aiogithubapi": {
+      "a": "core",
+      "b": "aiogithubapi",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|pyjwt": {
+      "a": "core",
+      "b": "pyjwt",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|# is available.": {
+      "a": "core",
+      "b": "# is available.",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|audioop-lts": {
+      "a": "core",
+      "b": "audioop-lts",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|certifi": {
+      "a": "core",
+      "b": "certifi",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|astral": {
+      "a": "core",
+      "b": "astral",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|aiohttp-fast-zlib": {
+      "a": "core",
+      "b": "aiohttp-fast-zlib",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|aiozoneinfo": {
+      "a": "core",
+      "b": "aiozoneinfo",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|# hass-nabucasa is imported by helpers which don't depend on the cloud": {
+      "a": "core",
+      "b": "# hass-nabucasa is imported by helpers which don't depend on the cloud",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|lru-dict": {
+      "a": "core",
+      "b": "lru-dict",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|standard-aifc": {
+      "a": "core",
+      "b": "standard-aifc",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|standard-telnetlib": {
+      "a": "core",
+      "b": "standard-telnetlib",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|pymicro-vad": {
+      "a": "core",
+      "b": "pymicro-vad",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|# when bumping httpx, please check the version pins of": {
+      "a": "core",
+      "b": "# when bumping httpx, please check the version pins of",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|awesomeversion": {
+      "a": "core",
+      "b": "awesomeversion",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|zeroconf": {
+      "a": "core",
+      "b": "zeroconf",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|bcrypt": {
+      "a": "core",
+      "b": "bcrypt",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|yarl": {
+      "a": "core",
+      "b": "yarl",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|aiodns": {
+      "a": "core",
+      "b": "aiodns",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|# httpcore, anyio, and h11 in gen_requirements_all": {
+      "a": "core",
+      "b": "# httpcore, anyio, and h11 in gen_requirements_all",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "core|requires|pyyaml": {
+      "a": "core",
+      "b": "pyyaml",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pydantic-ai|requires|pydantic-ai-slim": {
+      "a": "pydantic-ai",
+      "b": "pydantic-ai-slim",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "httpx|requires|mkautodoc": {
+      "a": "httpx",
+      "b": "mkautodoc",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "httpx|requires|pytest": {
+      "a": "httpx",
+      "b": "pytest",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "httpx|requires|mkdocs-material": {
+      "a": "httpx",
+      "b": "mkdocs-material",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "httpx|requires|httpcore": {
+      "a": "httpx",
+      "b": "httpcore",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "httpx|requires|mkdocs": {
+      "a": "httpx",
+      "b": "mkdocs",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "httpx|requires|chardet": {
+      "a": "httpx",
+      "b": "chardet",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "httpx|requires|cryptography": {
+      "a": "httpx",
+      "b": "cryptography",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "httpx|requires|mypy": {
+      "a": "httpx",
+      "b": "mypy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "httpx|requires|anyio": {
+      "a": "httpx",
+      "b": "anyio",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "httpx|requires|ruff": {
+      "a": "httpx",
+      "b": "ruff",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "httpx|requires|uvicorn": {
+      "a": "httpx",
+      "b": "uvicorn",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "httpx|requires|idna": {
+      "a": "httpx",
+      "b": "idna",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "httpx|requires|certifi": {
+      "a": "httpx",
+      "b": "certifi",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "httpx|requires|trio-typing": {
+      "a": "httpx",
+      "b": "trio-typing",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "httpx|requires|twine": {
+      "a": "httpx",
+      "b": "twine",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "httpx|requires|coverage": {
+      "a": "httpx",
+      "b": "coverage",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "httpx|requires|build": {
+      "a": "httpx",
+      "b": "build",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "httpx|requires|trio": {
+      "a": "httpx",
+      "b": "trio",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "httpx|requires|trustme": {
+      "a": "httpx",
+      "b": "trustme",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "laya|requires|huggingface_hub": {
+      "a": "laya",
+      "b": "huggingface_hub",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "laya|requires|torch": {
+      "a": "laya",
+      "b": "torch",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "laya|requires|safetensors": {
+      "a": "laya",
+      "b": "safetensors",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "laya|requires|transformers": {
+      "a": "laya",
+      "b": "transformers",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "laya|requires|numpy": {
+      "a": "laya",
+      "b": "numpy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pydantic|requires|# keep this in sync with the version in the `check_pydantic_core_version()` function:": {
+      "a": "pydantic",
+      "b": "# keep this in sync with the version in the `check_pydantic_core_version()` function:",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pydantic|requires|typing-inspection": {
+      "a": "pydantic",
+      "b": "typing-inspection",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pydantic|requires|annotated-types": {
+      "a": "pydantic",
+      "b": "annotated-types",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pydantic|requires|pydantic-core": {
+      "a": "pydantic",
+      "b": "pydantic-core",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pydantic|requires|typing-extensions": {
+      "a": "pydantic",
+      "b": "typing-extensions",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "typer|requires|rich": {
+      "a": "typer",
+      "b": "rich",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "typer|requires|shellingham": {
+      "a": "typer",
+      "b": "shellingham",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "typer|requires|annotated-doc": {
+      "a": "typer",
+      "b": "annotated-doc",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "typer|requires|colorama": {
+      "a": "typer",
+      "b": "colorama",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "mypy|requires|typing_extensions": {
+      "a": "mypy",
+      "b": "typing_extensions",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "mypy|requires|mypy_extensions": {
+      "a": "mypy",
+      "b": "mypy_extensions",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "mypy|requires|# when changing this, also update build-system.requires and mypy-requirements.txt": {
+      "a": "mypy",
+      "b": "# when changing this, also update build-system.requires and mypy-requirements.txt",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "mypy|requires|ast-serialize": {
+      "a": "mypy",
+      "b": "ast-serialize",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "mypy|requires|librt": {
+      "a": "mypy",
+      "b": "librt",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "mypy|requires|pathspec": {
+      "a": "mypy",
+      "b": "pathspec",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "mypy|requires|tomli": {
+      "a": "mypy",
+      "b": "tomli",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|fsspec": {
+      "a": "tts",
+      "b": "fsspec",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|nltk": {
+      "a": "tts",
+      "b": "nltk",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|torchaudio": {
+      "a": "tts",
+      "b": "torchaudio",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|matplotlib": {
+      "a": "tts",
+      "b": "matplotlib",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|soundfile": {
+      "a": "tts",
+      "b": "soundfile",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|librosa": {
+      "a": "tts",
+      "b": "librosa",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|g2pkk": {
+      "a": "tts",
+      "b": "g2pkk",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|scikit-learn": {
+      "a": "tts",
+      "b": "scikit-learn",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|anyascii": {
+      "a": "tts",
+      "b": "anyascii",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|aiohttp": {
+      "a": "tts",
+      "b": "aiohttp",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|bnunicodenormalizer": {
+      "a": "tts",
+      "b": "bnunicodenormalizer",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|bangla": {
+      "a": "tts",
+      "b": "bangla",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|numba": {
+      "a": "tts",
+      "b": "numba",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|numpy": {
+      "a": "tts",
+      "b": "numpy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|cython": {
+      "a": "tts",
+      "b": "cython",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|num2words": {
+      "a": "tts",
+      "b": "num2words",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|torch": {
+      "a": "tts",
+      "b": "torch",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|pysbd": {
+      "a": "tts",
+      "b": "pysbd",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|hangul_romanize": {
+      "a": "tts",
+      "b": "hangul_romanize",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|inflect": {
+      "a": "tts",
+      "b": "inflect",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|jamo": {
+      "a": "tts",
+      "b": "jamo",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|umap-learn": {
+      "a": "tts",
+      "b": "umap-learn",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|trainer": {
+      "a": "tts",
+      "b": "trainer",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|flask": {
+      "a": "tts",
+      "b": "flask",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|gruut": {
+      "a": "tts",
+      "b": "gruut",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|bnnumerizer": {
+      "a": "tts",
+      "b": "bnnumerizer",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|spacy": {
+      "a": "tts",
+      "b": "spacy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|scipy": {
+      "a": "tts",
+      "b": "scipy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|unidecode": {
+      "a": "tts",
+      "b": "unidecode",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|packaging": {
+      "a": "tts",
+      "b": "packaging",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|jieba": {
+      "a": "tts",
+      "b": "jieba",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|pandas": {
+      "a": "tts",
+      "b": "pandas",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|einops": {
+      "a": "tts",
+      "b": "einops",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|coqpit": {
+      "a": "tts",
+      "b": "coqpit",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|tqdm": {
+      "a": "tts",
+      "b": "tqdm",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|pypinyin": {
+      "a": "tts",
+      "b": "pypinyin",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|transformers": {
+      "a": "tts",
+      "b": "transformers",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|encodec": {
+      "a": "tts",
+      "b": "encodec",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tts|requires|pyyaml": {
+      "a": "tts",
+      "b": "pyyaml",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "localstack|requires|requests": {
+      "a": "localstack",
+      "b": "requests",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "localstack|requires|cachetools": {
+      "a": "localstack",
+      "b": "cachetools",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "localstack|requires|python-dotenv": {
+      "a": "localstack",
+      "b": "python-dotenv",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "localstack|requires|dnspython": {
+      "a": "localstack",
+      "b": "dnspython",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "localstack|requires|click": {
+      "a": "localstack",
+      "b": "click",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "localstack|requires|asn1crypto": {
+      "a": "localstack",
+      "b": "asn1crypto",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "localstack|requires|psutil": {
+      "a": "localstack",
+      "b": "psutil",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "localstack|requires|plux": {
+      "a": "localstack",
+      "b": "plux",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "localstack|requires|rich": {
+      "a": "localstack",
+      "b": "rich",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "localstack|requires|cryptography": {
+      "a": "localstack",
+      "b": "cryptography",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "localstack|requires|pyyaml": {
+      "a": "localstack",
+      "b": "pyyaml",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "localstack|requires|semver": {
+      "a": "localstack",
+      "b": "semver",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "localstack|requires|dnslib": {
+      "a": "localstack",
+      "b": "dnslib",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "saleor|requires|azure-common": {
+      "a": "saleor",
+      "b": "azure-common",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "saleor|requires|authlib": {
+      "a": "saleor",
+      "b": "authlib",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "saleor|requires|botocore": {
+      "a": "saleor",
+      "b": "botocore",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "saleor|requires|babel": {
+      "a": "saleor",
+      "b": "babel",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "saleor|requires|azure-storage-common": {
+      "a": "saleor",
+      "b": "azure-storage-common",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "saleor|requires|dj-email-url": {
+      "a": "saleor",
+      "b": "dj-email-url",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "saleor|requires|asgiref": {
+      "a": "saleor",
+      "b": "asgiref",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "saleor|requires|azure-storage-blob": {
+      "a": "saleor",
+      "b": "azure-storage-blob",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "saleor|requires|cryptography": {
+      "a": "saleor",
+      "b": "cryptography",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "saleor|requires|dj-database-url": {
+      "a": "saleor",
+      "b": "dj-database-url",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "saleor|requires|boto3": {
+      "a": "saleor",
+      "b": "boto3",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "saleor|requires|django": {
+      "a": "saleor",
+      "b": "django",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "cloakbrowser|requires|cryptography": {
+      "a": "cloakbrowser",
+      "b": "cryptography",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "cloakbrowser|requires|playwright": {
+      "a": "cloakbrowser",
+      "b": "playwright",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "cloakbrowser|requires|httpx": {
+      "a": "cloakbrowser",
+      "b": "httpx",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|google-crc32c": {
+      "a": "sentry",
+      "b": "google-crc32c",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|emmett-sentry": {
+      "a": "sentry",
+      "b": "emmett-sentry",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|cssselect": {
+      "a": "sentry",
+      "b": "cssselect",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|google-cloud-build": {
+      "a": "sentry",
+      "b": "google-cloud-build",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|brotli": {
+      "a": "sentry",
+      "b": "brotli",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|googleapis-common-protos": {
+      "a": "sentry",
+      "b": "googleapis-common-protos",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|boto3": {
+      "a": "sentry",
+      "b": "boto3",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|cronsim": {
+      "a": "sentry",
+      "b": "cronsim",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|asyncpg": {
+      "a": "sentry",
+      "b": "asyncpg",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|datadog": {
+      "a": "sentry",
+      "b": "datadog",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|google-cloud-bigtable": {
+      "a": "sentry",
+      "b": "google-cloud-bigtable",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|django-crispy-forms": {
+      "a": "sentry",
+      "b": "django-crispy-forms",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|google-cloud-storage": {
+      "a": "sentry",
+      "b": "google-cloud-storage",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|granian": {
+      "a": "sentry",
+      "b": "granian",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|click": {
+      "a": "sentry",
+      "b": "click",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|cryptography": {
+      "a": "sentry",
+      "b": "cryptography",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|google-cloud-core": {
+      "a": "sentry",
+      "b": "google-cloud-core",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|google-cloud-functions": {
+      "a": "sentry",
+      "b": "google-cloud-functions",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|google-cloud-storage-transfer": {
+      "a": "sentry",
+      "b": "google-cloud-storage-transfer",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|beautifulsoup4": {
+      "a": "sentry",
+      "b": "beautifulsoup4",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|backports-zstd": {
+      "a": "sentry",
+      "b": "backports-zstd",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|emmett55": {
+      "a": "sentry",
+      "b": "emmett55",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|drf-spectacular": {
+      "a": "sentry",
+      "b": "drf-spectacular",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|django": {
+      "a": "sentry",
+      "b": "django",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|google-re2": {
+      "a": "sentry",
+      "b": "google-re2",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|fido2": {
+      "a": "sentry",
+      "b": "fido2",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|botocore": {
+      "a": "sentry",
+      "b": "botocore",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|cachetools": {
+      "a": "sentry",
+      "b": "cachetools",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|djangorestframework": {
+      "a": "sentry",
+      "b": "djangorestframework",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|google-cloud-kms": {
+      "a": "sentry",
+      "b": "google-cloud-kms",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|django-pg-zero-downtime-migrations": {
+      "a": "sentry",
+      "b": "django-pg-zero-downtime-migrations",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|google-cloud-logging": {
+      "a": "sentry",
+      "b": "google-cloud-logging",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|google-cloud-pubsub": {
+      "a": "sentry",
+      "b": "google-cloud-pubsub",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|confluent-kafka": {
+      "a": "sentry",
+      "b": "confluent-kafka",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|django-csp": {
+      "a": "sentry",
+      "b": "django-csp",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|google-cloud-spanner": {
+      "a": "sentry",
+      "b": "google-cloud-spanner",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|google-auth": {
+      "a": "sentry",
+      "b": "google-auth",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|google-api-core": {
+      "a": "sentry",
+      "b": "google-api-core",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "sentry|requires|emmett-prometheus": {
+      "a": "sentry",
+      "b": "emmett-prometheus",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "django|requires|asgiref": {
+      "a": "django",
+      "b": "asgiref",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "django|requires|sqlparse": {
+      "a": "django",
+      "b": "sqlparse",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "django|requires|tzdata": {
+      "a": "django",
+      "b": "tzdata",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapling|requires|typing_extensions": {
+      "a": "scrapling",
+      "b": "typing_extensions",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapling|requires|lxml": {
+      "a": "scrapling",
+      "b": "lxml",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapling|requires|orjson": {
+      "a": "scrapling",
+      "b": "orjson",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapling|requires|w3lib": {
+      "a": "scrapling",
+      "b": "w3lib",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapling|requires|tld": {
+      "a": "scrapling",
+      "b": "tld",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapling|requires|cssselect": {
+      "a": "scrapling",
+      "b": "cssselect",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "warp|requires|numpy": {
+      "a": "warp",
+      "b": "numpy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "flask|requires|werkzeug": {
+      "a": "flask",
+      "b": "werkzeug",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "flask|requires|itsdangerous": {
+      "a": "flask",
+      "b": "itsdangerous",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "flask|requires|jinja2": {
+      "a": "flask",
+      "b": "jinja2",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "flask|requires|click": {
+      "a": "flask",
+      "b": "click",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "flask|requires|markupsafe": {
+      "a": "flask",
+      "b": "markupsafe",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "flask|requires|blinker": {
+      "a": "flask",
+      "b": "blinker",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "locust|requires|requests": {
+      "a": "locust",
+      "b": "requests",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "locust|requires|flask": {
+      "a": "locust",
+      "b": "flask",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "locust|requires|gevent": {
+      "a": "locust",
+      "b": "gevent",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "locust|requires|configargparse": {
+      "a": "locust",
+      "b": "configargparse",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "locust|requires|typing_extensions": {
+      "a": "locust",
+      "b": "typing_extensions",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "locust|requires|werkzeug": {
+      "a": "locust",
+      "b": "werkzeug",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "locust|requires|pyzmq": {
+      "a": "locust",
+      "b": "pyzmq",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "locust|requires|geventhttpclient": {
+      "a": "locust",
+      "b": "geventhttpclient",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "locust|requires|flask-login": {
+      "a": "locust",
+      "b": "flask-login",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "locust|requires|psutil": {
+      "a": "locust",
+      "b": "psutil",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "locust|requires|flask-cors": {
+      "a": "locust",
+      "b": "flask-cors",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "locust|requires|pywin32": {
+      "a": "locust",
+      "b": "pywin32",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "locust|requires|msgpack": {
+      "a": "locust",
+      "b": "msgpack",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "locust|requires|python-socketio": {
+      "a": "locust",
+      "b": "python-socketio",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "imbalanced-learn|requires|joblib": {
+      "a": "imbalanced-learn",
+      "b": "joblib",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "imbalanced-learn|requires|scipy": {
+      "a": "imbalanced-learn",
+      "b": "scipy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "imbalanced-learn|requires|sklearn-compat": {
+      "a": "imbalanced-learn",
+      "b": "sklearn-compat",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "imbalanced-learn|requires|scikit-learn": {
+      "a": "imbalanced-learn",
+      "b": "scikit-learn",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "imbalanced-learn|requires|threadpoolctl": {
+      "a": "imbalanced-learn",
+      "b": "threadpoolctl",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "imbalanced-learn|requires|numpy": {
+      "a": "imbalanced-learn",
+      "b": "numpy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "adversarial-robustness-toolbox|requires|six": {
+      "a": "adversarial-robustness-toolbox",
+      "b": "six",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "adversarial-robustness-toolbox|requires|tqdm": {
+      "a": "adversarial-robustness-toolbox",
+      "b": "tqdm",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "adversarial-robustness-toolbox|requires|scipy": {
+      "a": "adversarial-robustness-toolbox",
+      "b": "scipy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "adversarial-robustness-toolbox|requires|scikit-learn": {
+      "a": "adversarial-robustness-toolbox",
+      "b": "scikit-learn",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "adversarial-robustness-toolbox|requires|setuptools": {
+      "a": "adversarial-robustness-toolbox",
+      "b": "setuptools",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "adversarial-robustness-toolbox|requires|numpy": {
+      "a": "adversarial-robustness-toolbox",
+      "b": "numpy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapy|requires|brotlicffi": {
+      "a": "scrapy",
+      "b": "brotlicffi",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapy|requires|lxml": {
+      "a": "scrapy",
+      "b": "lxml",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapy|requires|pyopenssl": {
+      "a": "scrapy",
+      "b": "pyopenssl",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapy|requires|cssselect": {
+      "a": "scrapy",
+      "b": "cssselect",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapy|requires|brotli": {
+      "a": "scrapy",
+      "b": "brotli",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapy|requires|aiohttp": {
+      "a": "scrapy",
+      "b": "aiohttp",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapy|requires|defusedxml": {
+      "a": "scrapy",
+      "b": "defusedxml",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapy|requires|backports.zstd": {
+      "a": "scrapy",
+      "b": "backports.zstd",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapy|requires|# platform-specific dependencies": {
+      "a": "scrapy",
+      "b": "# platform-specific dependencies",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapy|requires|pypydispatcher": {
+      "a": "scrapy",
+      "b": "pypydispatcher",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapy|requires|typing-extensions": {
+      "a": "scrapy",
+      "b": "typing-extensions",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapy|requires|formerly": {
+      "a": "scrapy",
+      "b": "formerly",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapy|requires|cryptography": {
+      "a": "scrapy",
+      "b": "cryptography",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapy|requires|service_identity": {
+      "a": "scrapy",
+      "b": "service_identity",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapy|requires|pydispatcher": {
+      "a": "scrapy",
+      "b": "pydispatcher",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapy|requires|twisted": {
+      "a": "scrapy",
+      "b": "twisted",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapy|requires|charset-normalizer": {
+      "a": "scrapy",
+      "b": "charset-normalizer",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapy|requires|w3lib": {
+      "a": "scrapy",
+      "b": "w3lib",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapy|requires|packaging": {
+      "a": "scrapy",
+      "b": "packaging",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapy|requires|itemadapter": {
+      "a": "scrapy",
+      "b": "itemadapter",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapy|requires|protego": {
+      "a": "scrapy",
+      "b": "protego",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapy|requires|queuelib": {
+      "a": "scrapy",
+      "b": "queuelib",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapy|requires|itemloaders": {
+      "a": "scrapy",
+      "b": "itemloaders",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapy|requires|zope.interface": {
+      "a": "scrapy",
+      "b": "zope.interface",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapy|requires|parsel": {
+      "a": "scrapy",
+      "b": "parsel",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapy|requires|platformdirs": {
+      "a": "scrapy",
+      "b": "platformdirs",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "scrapy|requires|tldextract": {
+      "a": "scrapy",
+      "b": "tldextract",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "playwright-python|requires|pyee": {
+      "a": "playwright-python",
+      "b": "pyee",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "playwright-python|requires|greenlet": {
+      "a": "playwright-python",
+      "b": "greenlet",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "playwright-python|requires|typing-extensions": {
+      "a": "playwright-python",
+      "b": "typing-extensions",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "river|requires|numpy": {
+      "a": "river",
+      "b": "numpy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "river|requires|scipy": {
+      "a": "river",
+      "b": "scipy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "river|requires|narwhals": {
+      "a": "river",
+      "b": "narwhals",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "aiortc|requires|cryptography": {
+      "a": "aiortc",
+      "b": "cryptography",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "aiortc|requires|google-crc32c": {
+      "a": "aiortc",
+      "b": "google-crc32c",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "aiortc|requires|av": {
+      "a": "aiortc",
+      "b": "av",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "aiortc|requires|pylibsrtp": {
+      "a": "aiortc",
+      "b": "pylibsrtp",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "aiortc|requires|pyopenssl": {
+      "a": "aiortc",
+      "b": "pyopenssl",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "aiortc|requires|aioice": {
+      "a": "aiortc",
+      "b": "aioice",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "aiortc|requires|pyee": {
+      "a": "aiortc",
+      "b": "pyee",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pentestgpt|requires|langfuse": {
+      "a": "pentestgpt",
+      "b": "langfuse",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pentestgpt|requires|anthropic": {
+      "a": "pentestgpt",
+      "b": "anthropic",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pentestgpt|requires|pydantic": {
+      "a": "pentestgpt",
+      "b": "pydantic",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pentestgpt|requires|python-dotenv": {
+      "a": "pentestgpt",
+      "b": "python-dotenv",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pentestgpt|requires|openai-codex": {
+      "a": "pentestgpt",
+      "b": "openai-codex",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pentestgpt|requires|pydantic-settings": {
+      "a": "pentestgpt",
+      "b": "pydantic-settings",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pentestgpt|requires|loguru": {
+      "a": "pentestgpt",
+      "b": "loguru",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pentestgpt|requires|# the maintained framework resolves unified-agent from unifedagentwrapper instead.": {
+      "a": "pentestgpt",
+      "b": "# the maintained framework resolves unified-agent from unifedagentwrapper instead.",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pentestgpt|requires|openai": {
+      "a": "pentestgpt",
+      "b": "openai",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pentestgpt|requires|google-genai": {
+      "a": "pentestgpt",
+      "b": "google-genai",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pentestgpt|requires|prompt-toolkit": {
+      "a": "pentestgpt",
+      "b": "prompt-toolkit",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pentestgpt|requires|# transitional dependencies of the obsolete root unified_agent compatibility copy.": {
+      "a": "pentestgpt",
+      "b": "# transitional dependencies of the obsolete root unified_agent compatibility copy.",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pentestgpt|requires|# modernized legacy pentestgpt: interactive ui + native multi-provider llm sdks.": {
+      "a": "pentestgpt",
+      "b": "# modernized legacy pentestgpt: interactive ui + native multi-provider llm sdks.",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pentestgpt|requires|rich": {
+      "a": "pentestgpt",
+      "b": "rich",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pentestgpt|requires|claude-agent-sdk": {
+      "a": "pentestgpt",
+      "b": "claude-agent-sdk",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pentestgpt|requires|mcp": {
+      "a": "pentestgpt",
+      "b": "mcp",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pentestgpt|requires|pyyaml": {
+      "a": "pentestgpt",
+      "b": "pyyaml",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytest|requires|pygments": {
+      "a": "pytest",
+      "b": "pygments",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytest|requires|iniconfig": {
+      "a": "pytest",
+      "b": "iniconfig",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytest|requires|exceptiongroup": {
+      "a": "pytest",
+      "b": "exceptiongroup",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytest|requires|packaging": {
+      "a": "pytest",
+      "b": "packaging",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytest|requires|pluggy": {
+      "a": "pytest",
+      "b": "pluggy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytest|requires|colorama": {
+      "a": "pytest",
+      "b": "colorama",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytest|requires|tomli": {
+      "a": "pytest",
+      "b": "tomli",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "mcp-context-forge|requires|argon2-cffi": {
+      "a": "mcp-context-forge",
+      "b": "argon2-cffi",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "mcp-context-forge|requires|h2": {
+      "a": "mcp-context-forge",
+      "b": "h2",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "mcp-context-forge|requires|filelock": {
+      "a": "mcp-context-forge",
+      "b": "filelock",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "mcp-context-forge|requires|fastapi": {
+      "a": "mcp-context-forge",
+      "b": "fastapi",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "mcp-context-forge|requires|click": {
+      "a": "mcp-context-forge",
+      "b": "click",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "mcp-context-forge|requires|gunicorn": {
+      "a": "mcp-context-forge",
+      "b": "gunicorn",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "mcp-context-forge|requires|cpex": {
+      "a": "mcp-context-forge",
+      "b": "cpex",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "mcp-context-forge|requires|base58": {
+      "a": "mcp-context-forge",
+      "b": "base58",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "mcp-context-forge|requires|brotli": {
+      "a": "mcp-context-forge",
+      "b": "brotli",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "mcp-context-forge|requires|cryptography": {
+      "a": "mcp-context-forge",
+      "b": "cryptography",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "mcp-context-forge|requires|alembic": {
+      "a": "mcp-context-forge",
+      "b": "alembic",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "textual|requires|tree-sitter-python": {
+      "a": "textual",
+      "b": "tree-sitter-python",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "textual|requires|tree-sitter-json": {
+      "a": "textual",
+      "b": "tree-sitter-json",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "textual|requires|tree-sitter-java": {
+      "a": "textual",
+      "b": "tree-sitter-java",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "textual|requires|tree-sitter-toml": {
+      "a": "textual",
+      "b": "tree-sitter-toml",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "textual|requires|mdit-py-plugins": {
+      "a": "textual",
+      "b": "mdit-py-plugins",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "textual|requires|tree-sitter-markdown": {
+      "a": "textual",
+      "b": "tree-sitter-markdown",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "textual|requires|tree-sitter-sql": {
+      "a": "textual",
+      "b": "tree-sitter-sql",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "textual|requires|tree-sitter-yaml": {
+      "a": "textual",
+      "b": "tree-sitter-yaml",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "textual|requires|rich": {
+      "a": "textual",
+      "b": "rich",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "textual|requires|tree-sitter-html": {
+      "a": "textual",
+      "b": "tree-sitter-html",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "textual|requires|tree-sitter-go": {
+      "a": "textual",
+      "b": "tree-sitter-go",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "textual|requires|typing-extensions": {
+      "a": "textual",
+      "b": "typing-extensions",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "textual|requires|tree-sitter": {
+      "a": "textual",
+      "b": "tree-sitter",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "textual|requires|tree-sitter-xml": {
+      "a": "textual",
+      "b": "tree-sitter-xml",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "textual|requires|tree-sitter-javascript": {
+      "a": "textual",
+      "b": "tree-sitter-javascript",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "textual|requires|tree-sitter-rust": {
+      "a": "textual",
+      "b": "tree-sitter-rust",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "textual|requires|pygments": {
+      "a": "textual",
+      "b": "pygments",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "textual|requires|tree-sitter-regex": {
+      "a": "textual",
+      "b": "tree-sitter-regex",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "textual|requires|markdown-it-py": {
+      "a": "textual",
+      "b": "markdown-it-py",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "textual|requires|tree-sitter-bash": {
+      "a": "textual",
+      "b": "tree-sitter-bash",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "textual|requires|platformdirs": {
+      "a": "textual",
+      "b": "platformdirs",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "textual|requires|tree-sitter-css": {
+      "a": "textual",
+      "b": "tree-sitter-css",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|# pypy-aarch64 wheels (50.0.1 is what resolves today). see #1947.": {
+      "a": "autobahn-python",
+      "b": "# pypy-aarch64 wheels (50.0.1 is what resolves today). see #1947.",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|# see the": {
+      "a": "autobahn-python",
+      "b": "# see the",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|# cpython wheels are published). pypy is deliberately kept out of the native-": {
+      "a": "autobahn-python",
+      "b": "# cpython wheels are published). pypy is deliberately kept out of the native-",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|# extension matrix and pinned to 5.9.0 -- the final pure-python release of cbor2.": {
+      "a": "autobahn-python",
+      "b": "# extension matrix and pinned to 5.9.0 -- the final pure-python release of cbor2.",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|# because it is the last pure-python cbor2 and already carries the max_depth": {
+      "a": "autobahn-python",
+      "b": "# because it is the last pure-python cbor2 and already carries the max_depth",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|# cpython uses native binary wheels where available": {
+      "a": "autobahn-python",
+      "b": "# cpython uses native binary wheels where available",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|# float up to. the two lines are verified wire-equivalent: the wamp serdes": {
+      "a": "autobahn-python",
+      "b": "# float up to. the two lines are verified wire-equivalent: the wamp serdes",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|u-msgpack-python": {
+      "a": "autobahn-python",
+      "b": "u-msgpack-python",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|msgpack": {
+      "a": "autobahn-python",
+      "b": "msgpack",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|# wamp serializers - batteries included for optimal wamp protocol support": {
+      "a": "autobahn-python",
+      "b": "# wamp serializers - batteries included for optimal wamp protocol support",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|# like cbor2 -- the floor is raised to the first release clear of known cves.": {
+      "a": "autobahn-python",
+      "b": "# like cbor2 -- the floor is raised to the first release clear of known cves.",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|# cryptography is rust/pyo3 with no pure-python fallback, so it cannot be capped": {
+      "a": "autobahn-python",
+      "b": "# cryptography is rust/pyo3 with no pure-python fallback, so it cannot be capped",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|# bleichenbacher oracle only in 50.0.0.": {
+      "a": "autobahn-python",
+      "b": "# bleichenbacher oracle only in 50.0.0.",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|# pypy (incl. pypy-aarch64) binary wheels have shipped since 46.0.0 (so": {
+      "a": "autobahn-python",
+      "b": "# pypy (incl. pypy-aarch64) binary wheels have shipped since 46.0.0 (so",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|# the pypy-aarch64 ci timeout in #1947.) 5.9.0 is an *exact* pin, not a range": {
+      "a": "autobahn-python",
+      "b": "# the pypy-aarch64 ci timeout in #1947.) 5.9.0 is an *exact* pin, not a range",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|# decoder hardening for cve-2026-26209": {
+      "a": "autobahn-python",
+      "b": "# decoder hardening for cve-2026-26209",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|ujson": {
+      "a": "autobahn-python",
+      "b": "ujson",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|cffi": {
+      "a": "autobahn-python",
+      "b": "cffi",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|cryptography": {
+      "a": "autobahn-python",
+      "b": "cryptography",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|# pypy it would fail or source-compile rust under emulation -- the root cause of": {
+      "a": "autobahn-python",
+      "b": "# pypy it would fail or source-compile rust under emulation -- the root cause of",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|# dependency: bjdata pulls in numpy, which we don't want in a minimal install.": {
+      "a": "autobahn-python",
+      "b": "# dependency: bjdata pulls in numpy, which we don't want in a minimal install.",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|# defensible security floor in 2026: cve-2026-26007 (high, sect subgroup) is": {
+      "a": "autobahn-python",
+      "b": "# defensible security floor in 2026: cve-2026-26007 (high, sect subgroup) is",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|txaio": {
+      "a": "autobahn-python",
+      "b": "txaio",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|# note: the wamp \"ubjson\" serializer (bjdata) is an optional extra, not a base": {
+      "a": "autobahn-python",
+      "b": "# note: the wamp \"ubjson\" serializer (bjdata) is an optional extra, not a base",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|importlib-resources": {
+      "a": "autobahn-python",
+      "b": "importlib-resources",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|# each encodes/decodes the wamp-proto canonical cbor vectors byte-for-byte": {
+      "a": "autobahn-python",
+      "b": "# each encodes/decodes the wamp-proto canonical cbor vectors byte-for-byte",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|# cbor2: cpython gets the current 6.x line (rust/pyo3, binary wheels everywhere": {
+      "a": "autobahn-python",
+      "b": "# cbor2: cpython gets the current 6.x line (rust/pyo3, binary wheels everywhere",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|# (the 6.x rust line ships no pypy wheel and has no pure-python fallback, so on": {
+      "a": "autobahn-python",
+      "b": "# (the 6.x rust line ships no pypy wheel and has no pure-python fallback, so on",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|hyperlink": {
+      "a": "autobahn-python",
+      "b": "hyperlink",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|# already avoids the qemu rust source-compile of #1947), but 46.x is not a": {
+      "a": "autobahn-python",
+      "b": "# already avoids the qemu rust source-compile of #1947), but 46.x is not a",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|# known, reviewed divergence, not an accidental resolver failure. see #1859, #1947.": {
+      "a": "autobahn-python",
+      "b": "# known, reviewed divergence, not an accidental resolver failure. see #1859, #1947.",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|# identically. the cost is that pypy does not receive later cbor2 6.x fixes -- a": {
+      "a": "autobahn-python",
+      "b": "# identically. the cost is that pypy does not receive later cbor2 6.x fixes -- a",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|# conformance suite (examples/serdes, run on both cpython and pypy in ci) asserts": {
+      "a": "autobahn-python",
+      "b": "# conformance suite (examples/serdes, run on both cpython and pypy in ci) asserts",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|cbor2": {
+      "a": "autobahn-python",
+      "b": "cbor2",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "autobahn-python|requires|# fixed in 46.0.5, cve-2026-39892 (buffer overflow) in 46.0.7, and the pkcs#7": {
+      "a": "autobahn-python",
+      "b": "# fixed in 46.0.5, cve-2026-39892 (buffer overflow) in 46.0.7, and the pkcs#7",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "reflex|requires|granian": {
+      "a": "reflex",
+      "b": "granian",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "reflex|requires|click": {
+      "a": "reflex",
+      "b": "click",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "django-rest-framework|requires|django": {
+      "a": "django-rest-framework",
+      "b": "django",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|requests": {
+      "a": "tornado",
+      "b": "requests",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|pathspec": {
+      "a": "tornado",
+      "b": "pathspec",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|alabaster": {
+      "a": "tornado",
+      "b": "alabaster",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|ast-serialize": {
+      "a": "tornado",
+      "b": "ast-serialize",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|pluggy": {
+      "a": "tornado",
+      "b": "pluggy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|snowballstemmer": {
+      "a": "tornado",
+      "b": "snowballstemmer",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|pyproject-api": {
+      "a": "tornado",
+      "b": "pyproject-api",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|babel": {
+      "a": "tornado",
+      "b": "babel",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|pyproject-hooks": {
+      "a": "tornado",
+      "b": "pyproject-hooks",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|docutils": {
+      "a": "tornado",
+      "b": "docutils",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|tox": {
+      "a": "tornado",
+      "b": "tox",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|pycodestyle": {
+      "a": "tornado",
+      "b": "pycodestyle",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|flake8": {
+      "a": "tornado",
+      "b": "flake8",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|click": {
+      "a": "tornado",
+      "b": "click",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|virtualenv": {
+      "a": "tornado",
+      "b": "virtualenv",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|librt": {
+      "a": "tornado",
+      "b": "librt",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|sphinxcontrib-jquery": {
+      "a": "tornado",
+      "b": "sphinxcontrib-jquery",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|colorama": {
+      "a": "tornado",
+      "b": "colorama",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|sphinx-rtd-theme": {
+      "a": "tornado",
+      "b": "sphinx-rtd-theme",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|roman-numerals": {
+      "a": "tornado",
+      "b": "roman-numerals",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|imagesize": {
+      "a": "tornado",
+      "b": "imagesize",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|sphinxcontrib-applehelp": {
+      "a": "tornado",
+      "b": "sphinxcontrib-applehelp",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|distlib": {
+      "a": "tornado",
+      "b": "distlib",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|pytokens": {
+      "a": "tornado",
+      "b": "pytokens",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|mypy": {
+      "a": "tornado",
+      "b": "mypy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|sphinxcontrib-devhelp": {
+      "a": "tornado",
+      "b": "sphinxcontrib-devhelp",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|pygments": {
+      "a": "tornado",
+      "b": "pygments",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|tomli-w": {
+      "a": "tornado",
+      "b": "tomli-w",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|charset-normalizer": {
+      "a": "tornado",
+      "b": "charset-normalizer",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|sphinxcontrib-htmlhelp": {
+      "a": "tornado",
+      "b": "sphinxcontrib-htmlhelp",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|jinja2": {
+      "a": "tornado",
+      "b": "jinja2",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|packaging": {
+      "a": "tornado",
+      "b": "packaging",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|urllib3": {
+      "a": "tornado",
+      "b": "urllib3",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|sphinxcontrib-serializinghtml": {
+      "a": "tornado",
+      "b": "sphinxcontrib-serializinghtml",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|sphinxcontrib-jsmath": {
+      "a": "tornado",
+      "b": "sphinxcontrib-jsmath",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|idna": {
+      "a": "tornado",
+      "b": "idna",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|sphinxcontrib-qthelp": {
+      "a": "tornado",
+      "b": "sphinxcontrib-qthelp",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|black": {
+      "a": "tornado",
+      "b": "black",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|sphinx": {
+      "a": "tornado",
+      "b": "sphinx",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|certifi": {
+      "a": "tornado",
+      "b": "certifi",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|types-pycurl": {
+      "a": "tornado",
+      "b": "types-pycurl",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|pip-tools": {
+      "a": "tornado",
+      "b": "pip-tools",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|cachetools": {
+      "a": "tornado",
+      "b": "cachetools",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|mypy-extensions": {
+      "a": "tornado",
+      "b": "mypy-extensions",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|pyflakes": {
+      "a": "tornado",
+      "b": "pyflakes",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|filelock": {
+      "a": "tornado",
+      "b": "filelock",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|markupsafe": {
+      "a": "tornado",
+      "b": "markupsafe",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|build": {
+      "a": "tornado",
+      "b": "build",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|typing-extensions": {
+      "a": "tornado",
+      "b": "typing-extensions",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|python-discovery": {
+      "a": "tornado",
+      "b": "python-discovery",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|mccabe": {
+      "a": "tornado",
+      "b": "mccabe",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "tornado|requires|platformdirs": {
+      "a": "tornado",
+      "b": "platformdirs",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "ib_insync|requires|eventkit": {
+      "a": "ib_insync",
+      "b": "eventkit",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "ib_insync|requires|eventkit', 'nest_asyncio": {
+      "a": "ib_insync",
+      "b": "eventkit', 'nest_asyncio",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "ib_insync|requires|dataclasses": {
+      "a": "ib_insync",
+      "b": "dataclasses",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "ib_insync|requires|nest_asyncio": {
+      "a": "ib_insync",
+      "b": "nest_asyncio",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "ib_insync|requires|backports.zoneinfo": {
+      "a": "ib_insync",
+      "b": "backports.zoneinfo",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "python-sortedcontainers|requires|bintrees": {
+      "a": "python-sortedcontainers",
+      "b": "bintrees",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "python-sortedcontainers|requires|tox": {
+      "a": "python-sortedcontainers",
+      "b": "tox",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "python-sortedcontainers|requires|rstcheck": {
+      "a": "python-sortedcontainers",
+      "b": "rstcheck",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "python-sortedcontainers|requires|matplotlib": {
+      "a": "python-sortedcontainers",
+      "b": "matplotlib",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "python-sortedcontainers|requires|twine": {
+      "a": "python-sortedcontainers",
+      "b": "twine",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "python-sortedcontainers|requires|pytest": {
+      "a": "python-sortedcontainers",
+      "b": "pytest",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "python-sortedcontainers|requires|treap": {
+      "a": "python-sortedcontainers",
+      "b": "treap",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "python-sortedcontainers|requires|scipy": {
+      "a": "python-sortedcontainers",
+      "b": "scipy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "python-sortedcontainers|requires|pyannote-banyan": {
+      "a": "python-sortedcontainers",
+      "b": "pyannote-banyan",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "python-sortedcontainers|requires|coverage": {
+      "a": "python-sortedcontainers",
+      "b": "coverage",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "python-sortedcontainers|requires|doc8": {
+      "a": "python-sortedcontainers",
+      "b": "doc8",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "python-sortedcontainers|requires|pytest-cov": {
+      "a": "python-sortedcontainers",
+      "b": "pytest-cov",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "python-sortedcontainers|requires|gj": {
+      "a": "python-sortedcontainers",
+      "b": "gj",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "python-sortedcontainers|requires|skiplistcollections": {
+      "a": "python-sortedcontainers",
+      "b": "skiplistcollections",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "python-sortedcontainers|requires|sphinx": {
+      "a": "python-sortedcontainers",
+      "b": "sphinx",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "python-sortedcontainers|requires|pylint": {
+      "a": "python-sortedcontainers",
+      "b": "pylint",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "python-sortedcontainers|requires|blist": {
+      "a": "python-sortedcontainers",
+      "b": "blist",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "whenever|requires|tzlocal": {
+      "a": "whenever",
+      "b": "tzlocal",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "whenever|requires|tzdata": {
+      "a": "whenever",
+      "b": "tzdata",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "python-oauth2|requires|httplib2": {
+      "a": "python-oauth2",
+      "b": "httplib2",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "python-oauth2|requires|pytest": {
+      "a": "python-oauth2",
+      "b": "pytest",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "python-oauth2|requires|pep8": {
+      "a": "python-oauth2",
+      "b": "pep8",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "python-oauth2|requires|mock": {
+      "a": "python-oauth2",
+      "b": "mock",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "dowhy|requires|cython": {
+      "a": "dowhy",
+      "b": "cython",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "dowhy|requires|cvxpy": {
+      "a": "dowhy",
+      "b": "cvxpy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "dowhy|requires|tqdm": {
+      "a": "dowhy",
+      "b": "tqdm",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "dowhy|requires|matplotlib": {
+      "a": "dowhy",
+      "b": "matplotlib",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "dowhy|requires|causal-learn": {
+      "a": "dowhy",
+      "b": "causal-learn",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "dowhy|requires|networkx": {
+      "a": "dowhy",
+      "b": "networkx",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "dowhy|requires|scipy": {
+      "a": "dowhy",
+      "b": "scipy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "dowhy|requires|sympy": {
+      "a": "dowhy",
+      "b": "sympy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "dowhy|requires|joblib": {
+      "a": "dowhy",
+      "b": "joblib",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "dowhy|requires|pygraphviz": {
+      "a": "dowhy",
+      "b": "pygraphviz",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "dowhy|requires|pandas": {
+      "a": "dowhy",
+      "b": "pandas",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "dowhy|requires|scikit-learn": {
+      "a": "dowhy",
+      "b": "scikit-learn",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "dowhy|requires|statsmodels": {
+      "a": "dowhy",
+      "b": "statsmodels",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "dowhy|requires|econml": {
+      "a": "dowhy",
+      "b": "econml",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "dowhy|requires|pydot": {
+      "a": "dowhy",
+      "b": "pydot",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "dowhy|requires|numba": {
+      "a": "dowhy",
+      "b": "numba",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "dowhy|requires|numpy": {
+      "a": "dowhy",
+      "b": "numpy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytermgui|requires|wcwidth": {
+      "a": "pytermgui",
+      "b": "wcwidth",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "edgartools|requires|# dec 2024": {
+      "a": "edgartools",
+      "b": "# dec 2024",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "edgartools|requires|lxml": {
+      "a": "edgartools",
+      "b": "lxml",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "edgartools|requires|orjson": {
+      "a": "edgartools",
+      "b": "orjson",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "edgartools|requires|stamina": {
+      "a": "edgartools",
+      "b": "stamina",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "edgartools|requires|# be unexpected — do not auto-adopt it. the migration path is httpx2": {
+      "a": "edgartools",
+      "b": "# be unexpected — do not auto-adopt it. the migration path is httpx2",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "edgartools|requires|httpx": {
+      "a": "edgartools",
+      "b": "httpx",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "edgartools|requires|rich": {
+      "a": "edgartools",
+      "b": "rich",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "edgartools|requires|rapidfuzz": {
+      "a": "edgartools",
+      "b": "rapidfuzz",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "edgartools|requires|pydantic": {
+      "a": "edgartools",
+      "b": "pydantic",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "edgartools|requires|nest-asyncio": {
+      "a": "edgartools",
+      "b": "nest-asyncio",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "edgartools|requires|# (edgartools-q2iz)": {
+      "a": "edgartools",
+      "b": "# (edgartools-q2iz)",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "edgartools|requires|beautifulsoup4": {
+      "a": "edgartools",
+      "b": "beautifulsoup4",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "edgartools|requires|jinja2": {
+      "a": "edgartools",
+      "b": "jinja2",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "edgartools|requires|humanize": {
+      "a": "edgartools",
+      "b": "humanize",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "edgartools|requires|unidecode": {
+      "a": "edgartools",
+      "b": "unidecode",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "edgartools|requires|pandas": {
+      "a": "edgartools",
+      "b": "pandas",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "edgartools|requires|tabulate": {
+      "a": "edgartools",
+      "b": "tabulate",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "edgartools|requires|pyrate-limiter": {
+      "a": "edgartools",
+      "b": "pyrate-limiter",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "edgartools|requires|pyarrow": {
+      "a": "edgartools",
+      "b": "pyarrow",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "edgartools|requires|tqdm": {
+      "a": "edgartools",
+      "b": "tqdm",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "edgartools|requires|# upper cap is deliberate: httpx upstream is dormant (last release 0.28.1": {
+      "a": "edgartools",
+      "b": "# upper cap is deliberate: httpx upstream is dormant (last release 0.28.1",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "edgartools|requires|textdistance": {
+      "a": "edgartools",
+      "b": "textdistance",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "edgartools|requires|rank_bm25": {
+      "a": "edgartools",
+      "b": "rank_bm25",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "edgartools|requires|# the": {
+      "a": "edgartools",
+      "b": "# the",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "jmcomic-crawler-python|requires|curl_cffi": {
+      "a": "jmcomic-crawler-python",
+      "b": "curl_cffi",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "jmcomic-crawler-python|requires|pycryptodome": {
+      "a": "jmcomic-crawler-python",
+      "b": "pycryptodome",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "jmcomic-crawler-python|requires|commonx": {
+      "a": "jmcomic-crawler-python",
+      "b": "commonx",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "jmcomic-crawler-python|requires|pillow": {
+      "a": "jmcomic-crawler-python",
+      "b": "pillow",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "jmcomic-crawler-python|requires|curl-cffi": {
+      "a": "jmcomic-crawler-python",
+      "b": "curl-cffi",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "jmcomic-crawler-python|requires|pyyaml": {
+      "a": "jmcomic-crawler-python",
+      "b": "pyyaml",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytype|requires|toml": {
+      "a": "pytype",
+      "b": "toml",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytype|requires|msgspec": {
+      "a": "pytype",
+      "b": "msgspec",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytype|requires|pyparsing": {
+      "a": "pytype",
+      "b": "pyparsing",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytype|requires|pycnite": {
+      "a": "pytype",
+      "b": "pycnite",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytype|requires|tomlkit": {
+      "a": "pytype",
+      "b": "tomlkit",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytype|requires|pylint": {
+      "a": "pytype",
+      "b": "pylint",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytype|requires|ninja": {
+      "a": "pytype",
+      "b": "ninja",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytype|requires|networkx": {
+      "a": "pytype",
+      "b": "networkx",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytype|requires|typing-extensions": {
+      "a": "pytype",
+      "b": "typing-extensions",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytype|requires|colorama": {
+      "a": "pytype",
+      "b": "colorama",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytype|requires|immutabledict": {
+      "a": "pytype",
+      "b": "immutabledict",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytype|requires|attrs": {
+      "a": "pytype",
+      "b": "attrs",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytype|requires|pydot": {
+      "a": "pytype",
+      "b": "pydot",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytype|requires|jinja2": {
+      "a": "pytype",
+      "b": "jinja2",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytype|requires|tabulate": {
+      "a": "pytype",
+      "b": "tabulate",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytype|requires|dill": {
+      "a": "pytype",
+      "b": "dill",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytype|requires|astroid": {
+      "a": "pytype",
+      "b": "astroid",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytype|requires|importlab": {
+      "a": "pytype",
+      "b": "importlab",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytype|requires|pybind11": {
+      "a": "pytype",
+      "b": "pybind11",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytype|requires|libcst": {
+      "a": "pytype",
+      "b": "libcst",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytype|requires|markupsafe": {
+      "a": "pytype",
+      "b": "markupsafe",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytype|requires|isort": {
+      "a": "pytype",
+      "b": "isort",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytype|requires|mccabe": {
+      "a": "pytype",
+      "b": "mccabe",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytype|requires|platformdirs": {
+      "a": "pytype",
+      "b": "platformdirs",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pytype|requires|pyyaml": {
+      "a": "pytype",
+      "b": "pyyaml",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "django-ninja|requires|django": {
+      "a": "django-ninja",
+      "b": "django",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "django-ninja|requires|pydantic": {
+      "a": "django-ninja",
+      "b": "pydantic",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pacu|requires|toml": {
+      "a": "pacu",
+      "b": "toml",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pacu|requires|requests": {
+      "a": "pacu",
+      "b": "requests",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pacu|requires|pytest": {
+      "a": "pacu",
+      "b": "pytest",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pacu|requires|sqlalchemy": {
+      "a": "pacu",
+      "b": "sqlalchemy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pacu|requires|chalice": {
+      "a": "pacu",
+      "b": "chalice",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pacu|requires|freezegun": {
+      "a": "pacu",
+      "b": "freezegun",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pacu|requires|boto3-stubs": {
+      "a": "pacu",
+      "b": "boto3-stubs",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pacu|requires|boto3": {
+      "a": "pacu",
+      "b": "boto3",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pacu|requires|pycognito": {
+      "a": "pacu",
+      "b": "pycognito",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pacu|requires|flake8": {
+      "a": "pacu",
+      "b": "flake8",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pacu|requires|sqlalchemy-utils": {
+      "a": "pacu",
+      "b": "sqlalchemy-utils",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pacu|requires|typing-extensions": {
+      "a": "pacu",
+      "b": "typing-extensions",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pacu|requires|importlib-metadata": {
+      "a": "pacu",
+      "b": "importlib-metadata",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pacu|requires|policyuniverse": {
+      "a": "pacu",
+      "b": "policyuniverse",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pacu|requires|dsnap": {
+      "a": "pacu",
+      "b": "dsnap",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pacu|requires|awscli": {
+      "a": "pacu",
+      "b": "awscli",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pacu|requires|mypy": {
+      "a": "pacu",
+      "b": "mypy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pacu|requires|urllib3": {
+      "a": "pacu",
+      "b": "urllib3",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pacu|requires|moto": {
+      "a": "pacu",
+      "b": "moto",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pacu|requires|botocore": {
+      "a": "pacu",
+      "b": "botocore",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pacu|requires|types-urllib3": {
+      "a": "pacu",
+      "b": "types-urllib3",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pacu|requires|jq": {
+      "a": "pacu",
+      "b": "jq",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pacu|requires|pyyaml": {
+      "a": "pacu",
+      "b": "pyyaml",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pacu|requires|qrcode": {
+      "a": "pacu",
+      "b": "qrcode",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "monkeytype|requires|libcst": {
+      "a": "monkeytype",
+      "b": "libcst",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "monkeytype|requires|mypy_extensions": {
+      "a": "monkeytype",
+      "b": "mypy_extensions",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "solara|requires|requests": {
+      "a": "solara",
+      "b": "requests",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "solara|requires|executing": {
+      "a": "solara",
+      "b": "executing",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "solara|requires|humanize": {
+      "a": "solara",
+      "b": "humanize",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "solara|requires|ipyvue": {
+      "a": "solara",
+      "b": "ipyvue",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "solara|requires|reacton": {
+      "a": "solara",
+      "b": "reacton",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "solara|requires|ipywidgets": {
+      "a": "solara",
+      "b": "ipywidgets",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "solara|requires|ipyvuetify": {
+      "a": "solara",
+      "b": "ipyvuetify",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "jc|requires|pygments": {
+      "a": "jc",
+      "b": "pygments",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "jc|requires|xmltodict": {
+      "a": "jc",
+      "b": "xmltodict",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "jc|requires|ruamel.yaml": {
+      "a": "jc",
+      "b": "ruamel.yaml",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "httpbin|requires|raven": {
+      "a": "httpbin",
+      "b": "raven",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "httpbin|requires|flask', 'markupsafe', 'decorator', 'itsdangerous', 'six', 'brotlipy": {
+      "a": "httpbin",
+      "b": "flask', 'markupsafe', 'decorator', 'itsdangerous', 'six', 'brotlipy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|requests": {
+      "a": "seleniumbase",
+      "b": "requests",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|pytest-metadata": {
+      "a": "seleniumbase",
+      "b": "pytest-metadata",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|wheel": {
+      "a": "seleniumbase",
+      "b": "wheel",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|fasteners": {
+      "a": "seleniumbase",
+      "b": "fasteners",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|pytest": {
+      "a": "seleniumbase",
+      "b": "pytest",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|pytest-ordering": {
+      "a": "seleniumbase",
+      "b": "pytest-ordering",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|pytest-rerunfailures": {
+      "a": "seleniumbase",
+      "b": "pytest-rerunfailures",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|pip": {
+      "a": "seleniumbase",
+      "b": "pip",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|selenium": {
+      "a": "seleniumbase",
+      "b": "selenium",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|cssselect": {
+      "a": "seleniumbase",
+      "b": "cssselect",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|tabcompleter": {
+      "a": "seleniumbase",
+      "b": "tabcompleter",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|trio-websocket": {
+      "a": "seleniumbase",
+      "b": "trio-websocket",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|pluggy": {
+      "a": "seleniumbase",
+      "b": "pluggy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|soupsieve": {
+      "a": "seleniumbase",
+      "b": "soupsieve",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|rich": {
+      "a": "seleniumbase",
+      "b": "rich",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|behave": {
+      "a": "seleniumbase",
+      "b": "behave",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|pynose": {
+      "a": "seleniumbase",
+      "b": "pynose",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|setuptools": {
+      "a": "seleniumbase",
+      "b": "setuptools",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|h11": {
+      "a": "seleniumbase",
+      "b": "h11",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|pycodestyle": {
+      "a": "seleniumbase",
+      "b": "pycodestyle",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|iniconfig": {
+      "a": "seleniumbase",
+      "b": "iniconfig",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|wsproto": {
+      "a": "seleniumbase",
+      "b": "wsproto",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|flake8": {
+      "a": "seleniumbase",
+      "b": "flake8",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|pytest-html": {
+      "a": "seleniumbase",
+      "b": "pytest-html",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|sortedcontainers": {
+      "a": "seleniumbase",
+      "b": "sortedcontainers",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|pytest-cov": {
+      "a": "seleniumbase",
+      "b": "pytest-cov",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|colorama": {
+      "a": "seleniumbase",
+      "b": "colorama",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|typing-extensions": {
+      "a": "seleniumbase",
+      "b": "typing-extensions",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|attrs": {
+      "a": "seleniumbase",
+      "b": "attrs",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|mycdp": {
+      "a": "seleniumbase",
+      "b": "mycdp",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|websocket-client": {
+      "a": "seleniumbase",
+      "b": "websocket-client",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|six": {
+      "a": "seleniumbase",
+      "b": "six",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|outcome": {
+      "a": "seleniumbase",
+      "b": "outcome",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|pygments": {
+      "a": "seleniumbase",
+      "b": "pygments",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|sniffio": {
+      "a": "seleniumbase",
+      "b": "sniffio",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|charset-normalizer": {
+      "a": "seleniumbase",
+      "b": "charset-normalizer",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|parse": {
+      "a": "seleniumbase",
+      "b": "parse",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|beautifulsoup4": {
+      "a": "seleniumbase",
+      "b": "beautifulsoup4",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|exceptiongroup": {
+      "a": "seleniumbase",
+      "b": "exceptiongroup",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|jinja2": {
+      "a": "seleniumbase",
+      "b": "jinja2",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|python-xlib": {
+      "a": "seleniumbase",
+      "b": "python-xlib",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|packaging": {
+      "a": "seleniumbase",
+      "b": "packaging",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|urllib3": {
+      "a": "seleniumbase",
+      "b": "urllib3",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|mdurl": {
+      "a": "seleniumbase",
+      "b": "mdurl",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|parse-type": {
+      "a": "seleniumbase",
+      "b": "parse-type",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|pdbp": {
+      "a": "seleniumbase",
+      "b": "pdbp",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|idna": {
+      "a": "seleniumbase",
+      "b": "idna",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|markdown-it-py": {
+      "a": "seleniumbase",
+      "b": "markdown-it-py",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|certifi": {
+      "a": "seleniumbase",
+      "b": "certifi",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|parameterized": {
+      "a": "seleniumbase",
+      "b": "parameterized",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|websockets": {
+      "a": "seleniumbase",
+      "b": "websockets",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|pyflakes": {
+      "a": "seleniumbase",
+      "b": "pyflakes",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|filelock": {
+      "a": "seleniumbase",
+      "b": "filelock",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|markupsafe": {
+      "a": "seleniumbase",
+      "b": "markupsafe",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|psutil": {
+      "a": "seleniumbase",
+      "b": "psutil",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|execnet": {
+      "a": "seleniumbase",
+      "b": "execnet",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|pytest-xdist": {
+      "a": "seleniumbase",
+      "b": "pytest-xdist",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|sbvirtualdisplay": {
+      "a": "seleniumbase",
+      "b": "sbvirtualdisplay",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|trio": {
+      "a": "seleniumbase",
+      "b": "trio",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|pyreadline3": {
+      "a": "seleniumbase",
+      "b": "pyreadline3",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|pyotp": {
+      "a": "seleniumbase",
+      "b": "pyotp",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|mccabe": {
+      "a": "seleniumbase",
+      "b": "mccabe",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|pyautogui": {
+      "a": "seleniumbase",
+      "b": "pyautogui",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|coverage": {
+      "a": "seleniumbase",
+      "b": "coverage",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "seleniumbase|requires|pyyaml": {
+      "a": "seleniumbase",
+      "b": "pyyaml",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "fastapi-users|requires|pytest-mock": {
+      "a": "fastapi-users",
+      "b": "pytest-mock",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "fastapi-users|requires|pytest": {
+      "a": "fastapi-users",
+      "b": "pytest",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "fastapi-users|requires|httpx": {
+      "a": "fastapi-users",
+      "b": "httpx",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "fastapi-users|requires|mkdocs-material": {
+      "a": "fastapi-users",
+      "b": "mkdocs-material",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "fastapi-users|requires|mkdocs": {
+      "a": "fastapi-users",
+      "b": "mkdocs",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "fastapi-users|requires|pytest-cov": {
+      "a": "fastapi-users",
+      "b": "pytest-cov",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "fastapi-users|requires|mypy": {
+      "a": "fastapi-users",
+      "b": "mypy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "fastapi-users|requires|pytest-asyncio": {
+      "a": "fastapi-users",
+      "b": "pytest-asyncio",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "fastapi-users|requires|pygments": {
+      "a": "fastapi-users",
+      "b": "pygments",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "fastapi-users|requires|mkdocs-mermaid2-plugin": {
+      "a": "fastapi-users",
+      "b": "mkdocs-mermaid2-plugin",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "fastapi-users|requires|ruff": {
+      "a": "fastapi-users",
+      "b": "ruff",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "fastapi-users|requires|markdown-include": {
+      "a": "fastapi-users",
+      "b": "markdown-include",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "fastapi-users|requires|asgi_lifespan": {
+      "a": "fastapi-users",
+      "b": "asgi_lifespan",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "fastapi-users|requires|uvicorn": {
+      "a": "fastapi-users",
+      "b": "uvicorn",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "fastapi-users|requires|mike": {
+      "a": "fastapi-users",
+      "b": "mike",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "fastapi-users|requires|httpx-oauth": {
+      "a": "fastapi-users",
+      "b": "httpx-oauth",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "fastapi-users|requires|isort": {
+      "a": "fastapi-users",
+      "b": "isort",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "fastapi-users|requires|types-redis": {
+      "a": "fastapi-users",
+      "b": "types-redis",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "fastapi-users|requires|pymdown-extensions": {
+      "a": "fastapi-users",
+      "b": "pymdown-extensions",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "nettacker|requires|requests": {
+      "a": "nettacker",
+      "b": "requests",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "nettacker|requires|pytest": {
+      "a": "nettacker",
+      "b": "pytest",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "nettacker|requires|sqlalchemy": {
+      "a": "nettacker",
+      "b": "sqlalchemy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "nettacker|requires|zipp": {
+      "a": "nettacker",
+      "b": "zipp",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "nettacker|requires|pyopenssl": {
+      "a": "nettacker",
+      "b": "pyopenssl",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "nettacker|requires|argparse": {
+      "a": "nettacker",
+      "b": "argparse",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "nettacker|requires|netaddr": {
+      "a": "nettacker",
+      "b": "netaddr",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "nettacker|requires|aiohttp": {
+      "a": "nettacker",
+      "b": "aiohttp",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "nettacker|requires|texttable": {
+      "a": "nettacker",
+      "b": "texttable",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "nettacker|requires|ipython": {
+      "a": "nettacker",
+      "b": "ipython",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "nettacker|requires|pytest-cov": {
+      "a": "nettacker",
+      "b": "pytest-cov",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "nettacker|requires|apsw": {
+      "a": "nettacker",
+      "b": "apsw",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "nettacker|requires|paramiko": {
+      "a": "nettacker",
+      "b": "paramiko",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "nettacker|requires|impacket": {
+      "a": "nettacker",
+      "b": "impacket",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "nettacker|requires|pytest-asyncio": {
+      "a": "nettacker",
+      "b": "pytest-asyncio",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "nettacker|requires|flask": {
+      "a": "nettacker",
+      "b": "flask",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "nettacker|requires|uvloop": {
+      "a": "nettacker",
+      "b": "uvloop",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "nettacker|requires|ruff": {
+      "a": "nettacker",
+      "b": "ruff",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "nettacker|requires|ipaddr": {
+      "a": "nettacker",
+      "b": "ipaddr",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "nettacker|requires|pymysql": {
+      "a": "nettacker",
+      "b": "pymysql",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "nettacker|requires|asyncio": {
+      "a": "nettacker",
+      "b": "asyncio",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "nettacker|requires|py3dns": {
+      "a": "nettacker",
+      "b": "py3dns",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "nettacker|requires|pysocks": {
+      "a": "nettacker",
+      "b": "pysocks",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "nettacker|requires|coverage": {
+      "a": "nettacker",
+      "b": "coverage",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "nettacker|requires|pytest-xdist": {
+      "a": "nettacker",
+      "b": "pytest-xdist",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "nettacker|requires|multiprocess": {
+      "a": "nettacker",
+      "b": "multiprocess",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "nettacker|requires|schema": {
+      "a": "nettacker",
+      "b": "schema",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "nettacker|requires|pyyaml": {
+      "a": "nettacker",
+      "b": "pyyaml",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "aiogram|requires|pydantic": {
+      "a": "aiogram",
+      "b": "pydantic",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "aiogram|requires|aiofiles": {
+      "a": "aiogram",
+      "b": "aiofiles",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "aiogram|requires|magic-filter": {
+      "a": "aiogram",
+      "b": "magic-filter",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "aiogram|requires|typing-extensions": {
+      "a": "aiogram",
+      "b": "typing-extensions",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "aiogram|requires|babel": {
+      "a": "aiogram",
+      "b": "babel",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "aiogram|requires|aiohttp": {
+      "a": "aiogram",
+      "b": "aiohttp",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "aiogram|requires|certifi": {
+      "a": "aiogram",
+      "b": "certifi",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "strawberry|requires|packaging": {
+      "a": "strawberry",
+      "b": "packaging",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "strawberry|requires|graphql-core": {
+      "a": "strawberry",
+      "b": "graphql-core",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "strawberry|requires|typing-extensions": {
+      "a": "strawberry",
+      "b": "typing-extensions",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "strawberry|requires|cross-web": {
+      "a": "strawberry",
+      "b": "cross-web",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "strawberry|requires|python-dateutil": {
+      "a": "strawberry",
+      "b": "python-dateutil",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "panel|requires|nh3": {
+      "a": "panel",
+      "b": "nh3",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "panel|requires|requests": {
+      "a": "panel",
+      "b": "requests",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "panel|requires|bokeh": {
+      "a": "panel",
+      "b": "bokeh",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "panel|requires|typing_extensions": {
+      "a": "panel",
+      "b": "typing_extensions",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "panel|requires|pyviz_comms": {
+      "a": "panel",
+      "b": "pyviz_comms",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "panel|requires|markdown": {
+      "a": "panel",
+      "b": "markdown",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "panel|requires|linkify-it-py": {
+      "a": "panel",
+      "b": "linkify-it-py",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "panel|requires|param": {
+      "a": "panel",
+      "b": "param",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "panel|requires|tqdm',  # todo: should this be optional?": {
+      "a": "panel",
+      "b": "tqdm',  # todo: should this be optional?",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "panel|requires|narwhals": {
+      "a": "panel",
+      "b": "narwhals",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "panel|requires|packaging": {
+      "a": "panel",
+      "b": "packaging",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "panel|requires|pandas": {
+      "a": "panel",
+      "b": "pandas",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "panel|requires|mdit-py-plugins": {
+      "a": "panel",
+      "b": "mdit-py-plugins",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "panel|requires|markdown-it-py": {
+      "a": "panel",
+      "b": "markdown-it-py",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "panel|requires|panel-material-ui": {
+      "a": "panel",
+      "b": "panel-material-ui",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "django-facebook|requires|django": {
+      "a": "django-facebook",
+      "b": "django",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "django-facebook|requires|unidecode": {
+      "a": "django-facebook",
+      "b": "unidecode",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "django-rest-framework-jwt|requires|pyjwt": {
+      "a": "django-rest-framework-jwt",
+      "b": "pyjwt",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "connexion|requires|requests": {
+      "a": "connexion",
+      "b": "requests",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "connexion|requires|werkzeug": {
+      "a": "connexion",
+      "b": "werkzeug",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "connexion|requires|swagger-ui-bundle": {
+      "a": "connexion",
+      "b": "swagger-ui-bundle",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "connexion|requires|httpx": {
+      "a": "connexion",
+      "b": "httpx",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "connexion|requires|asgiref": {
+      "a": "connexion",
+      "b": "asgiref",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "connexion|requires|jsonschema": {
+      "a": "connexion",
+      "b": "jsonschema",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "connexion|requires|starlette": {
+      "a": "connexion",
+      "b": "starlette",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "connexion|requires|typing-extensions": {
+      "a": "connexion",
+      "b": "typing-extensions",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "connexion|requires|flask": {
+      "a": "connexion",
+      "b": "flask",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "connexion|requires|clickclick": {
+      "a": "connexion",
+      "b": "clickclick",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "connexion|requires|jinja2": {
+      "a": "connexion",
+      "b": "jinja2",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "connexion|requires|referencing": {
+      "a": "connexion",
+      "b": "referencing",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "connexion|requires|inflection": {
+      "a": "connexion",
+      "b": "inflection",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "connexion|requires|python-multipart": {
+      "a": "connexion",
+      "b": "python-multipart",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "connexion|requires|uvicorn": {
+      "a": "connexion",
+      "b": "uvicorn",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "connexion|requires|jsf": {
+      "a": "connexion",
+      "b": "jsf",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "connexion|requires|openapi-spec-validator": {
+      "a": "connexion",
+      "b": "openapi-spec-validator",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "connexion|requires|a2wsgi": {
+      "a": "connexion",
+      "b": "a2wsgi",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "connexion|requires|pyyaml": {
+      "a": "connexion",
+      "b": "pyyaml",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "splinter|requires|urllib3": {
+      "a": "splinter",
+      "b": "urllib3",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "vibora|requires|cython": {
+      "a": "vibora",
+      "b": "cython",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "returns|requires|pytest": {
+      "a": "returns",
+      "b": "pytest",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "returns|requires|mypy": {
+      "a": "returns",
+      "b": "mypy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "returns|requires|typing-extensions": {
+      "a": "returns",
+      "b": "typing-extensions",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "returns|requires|hypothesis": {
+      "a": "returns",
+      "b": "hypothesis",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "dipy|requires|tqdm": {
+      "a": "dipy",
+      "b": "tqdm",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "dipy|requires|nibabel": {
+      "a": "dipy",
+      "b": "nibabel",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "dipy|requires|h5py": {
+      "a": "dipy",
+      "b": "h5py",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "dipy|requires|scipy": {
+      "a": "dipy",
+      "b": "scipy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "dipy|requires|packaging": {
+      "a": "dipy",
+      "b": "packaging",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "dipy|requires|trx-python": {
+      "a": "dipy",
+      "b": "trx-python",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "dipy|requires|numpy": {
+      "a": "dipy",
+      "b": "numpy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "webdataset|requires|braceexpand": {
+      "a": "webdataset",
+      "b": "braceexpand",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "webdataset|requires|pyyaml": {
+      "a": "webdataset",
+      "b": "pyyaml",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "webdataset|requires|numpy": {
+      "a": "webdataset",
+      "b": "numpy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "arctic|requires|mockextras": {
+      "a": "arctic",
+      "b": "mockextras",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "arctic|requires|pymongo": {
+      "a": "arctic",
+      "b": "pymongo",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "arctic|requires|lz4": {
+      "a": "arctic",
+      "b": "lz4",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "arctic|requires|enum-compat": {
+      "a": "arctic",
+      "b": "enum-compat",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "arctic|requires|pytz": {
+      "a": "arctic",
+      "b": "pytz",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "arctic|requires|pandas": {
+      "a": "arctic",
+      "b": "pandas",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "arctic|requires|tzlocal": {
+      "a": "arctic",
+      "b": "tzlocal",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "arctic|requires|decorator": {
+      "a": "arctic",
+      "b": "decorator",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "arctic|requires|mock": {
+      "a": "arctic",
+      "b": "mock",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "arctic|requires|numpy": {
+      "a": "arctic",
+      "b": "numpy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pvlib-python|requires|requests": {
+      "a": "pvlib-python",
+      "b": "requests",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pvlib-python|requires|pytz": {
+      "a": "pvlib-python",
+      "b": "pytz",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pvlib-python|requires|h5py": {
+      "a": "pvlib-python",
+      "b": "h5py",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pvlib-python|requires|scipy": {
+      "a": "pvlib-python",
+      "b": "scipy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pvlib-python|requires|pandas": {
+      "a": "pvlib-python",
+      "b": "pandas",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pvlib-python|requires|tzdata', # ensure all timezones are available in all installs for consistency gh#2795": {
+      "a": "pvlib-python",
+      "b": "tzdata', # ensure all timezones are available in all installs for consistency gh#2795",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "pvlib-python|requires|numpy": {
+      "a": "pvlib-python",
+      "b": "numpy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "jittor|requires|tqdm": {
+      "a": "jittor",
+      "b": "tqdm",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "jittor|requires|astunparse": {
+      "a": "jittor",
+      "b": "astunparse",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "jittor|requires|pillow": {
+      "a": "jittor",
+      "b": "pillow",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "jittor|requires|pywin32": {
+      "a": "jittor",
+      "b": "pywin32",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "jittor|requires|numpy": {
+      "a": "jittor",
+      "b": "numpy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "web2py|requires|gunicorn": {
+      "a": "web2py",
+      "b": "gunicorn",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "web2py|requires|google-cloud-firestore": {
+      "a": "web2py",
+      "b": "google-cloud-firestore",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "neon|requires|pytest-mock": {
+      "a": "neon",
+      "b": "pytest-mock",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "neon|requires|pytest": {
+      "a": "neon",
+      "b": "pytest",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "neon|requires|pep8": {
+      "a": "neon",
+      "b": "pep8",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "neon|requires|pandoc": {
+      "a": "neon",
+      "b": "pandoc",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "neon|requires|pylint": {
+      "a": "neon",
+      "b": "pylint",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "neon|requires|numpy": {
+      "a": "neon",
+      "b": "numpy",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "neon|requires|posix_ipc": {
+      "a": "neon",
+      "b": "posix_ipc",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "neon|requires|configargparse": {
+      "a": "neon",
+      "b": "configargparse",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "neon|requires|flake8": {
+      "a": "neon",
+      "b": "flake8",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "neon|requires|h5py": {
+      "a": "neon",
+      "b": "h5py",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "neon|requires|pytest-cov": {
+      "a": "neon",
+      "b": "pytest-cov",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "neon|requires|cffi": {
+      "a": "neon",
+      "b": "cffi",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "neon|requires|pillow": {
+      "a": "neon",
+      "b": "pillow",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "neon|requires|pypandoc": {
+      "a": "neon",
+      "b": "pypandoc",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "neon|requires|sphinx": {
+      "a": "neon",
+      "b": "sphinx",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "neon|requires|appdirs": {
+      "a": "neon",
+      "b": "appdirs",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "neon|requires|future": {
+      "a": "neon",
+      "b": "future",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "neon|requires|tqdm": {
+      "a": "neon",
+      "b": "tqdm",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "neon|requires|filelock": {
+      "a": "neon",
+      "b": "filelock",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "neon|requires|py-cpuinfo": {
+      "a": "neon",
+      "b": "py-cpuinfo",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    },
+    "neon|requires|pyyaml": {
+      "a": "neon",
+      "b": "pyyaml",
+      "cat": "requires",
+      "observations": 1,
+      "confidence": 1.0
+    }
+  },
+  "repos": {
+    "huggingface/transformers": [
+      "deps"
+    ],
+    "scikit-learn/scikit-learn": [
+      "joblib",
+      "scipy",
+      "narwhals",
+      "threadpoolctl",
+      "numpy"
+    ],
+    "aio-libs/aiohttp": [
+      "typing_extensions",
+      "frozenlist",
+      "propcache",
+      "multidict",
+      "yarl",
+      "async-timeout",
+      "aiohappyeyeballs",
+      "aiosignal"
+    ],
+    "fastapi/fastapi": [
+      "opentelemetry-api",
+      "pydantic",
+      "typing-inspection",
+      "annotated-doc",
+      "starlette",
+      "typing-extensions"
+    ],
+    "gradio-app/gradio": [
+      "huggingface_hub",
+      "orjson",
+      "fastapi",
+      "semantic_version",
+      "brotli",
+      "tomlkit",
+      "httpx",
+      "numpy",
+      "pydub",
+      "pydantic",
+      "hf-gradio",
+      "starlette",
+      "pillow",
+      "typer",
+      "groovy",
+      "anyio",
+      "jinja2",
+      "packaging",
+      "pandas",
+      "python-multipart",
+      "uvicorn",
+      "audioop-lts",
+      "typing_extensions",
+      "pytz",
+      "markupsafe",
+      "safehttpx",
+      "pyyaml",
+      "gradio_client"
+    ],
+    "home-assistant/core": [
+      "requests",
+      "# 3.12.0, which causes memory use to balloon, has been adjusted or a workaround",
+      "aiohttp-asyncmdnsresolver",
+      "# aiogithubapi is needed by frontend",
+      "orjson",
+      "sqlalchemy",
+      "ulid-transform",
+      "pyopenssl",
+      "# requirements.txt to ensure they are always installed",
+      "home-assistant-intents",
+      "pyturbojpeg",
+      "httpx",
+      "psutil-home-assistant",
+      "uv",
+      "aiohttp",
+      "atomicwrites-homeassistant",
+      "cronsim",
+      "infrared-protocols",
+      "rf-protocols",
+      "ifaddr",
+      "securetar",
+      "python-slugify",
+      "probatio",
+      "aiohttp_cors",
+      "ciso8601",
+      "# do not bump orjson until the very aggressive buffer resizing introduced in",
+      "webrtc-models",
+      "ha-ffmpeg",
+      "typing-extensions",
+      "hass-nabucasa",
+      "cryptography",
+      "attrs",
+      "async-interrupt",
+      "pillow",
+      "hassil",
+      "annotatedyaml",
+      "# module level in `bootstrap.py` and its requirements thus need to be in",
+      "fnv-hash-fast",
+      "# integration",
+      "propcache",
+      "# pyjwt has loose dependency. we want the latest one.",
+      "pyspeex-noise",
+      "gazetteer-matcher",
+      "mutagen",
+      "jinja2",
+      "home-assistant-bluetooth",
+      "packaging",
+      "urllib3",
+      "aiogithubapi",
+      "pyjwt",
+      "# is available.",
+      "audioop-lts",
+      "certifi",
+      "astral",
+      "aiohttp-fast-zlib",
+      "aiozoneinfo",
+      "# hass-nabucasa is imported by helpers which don't depend on the cloud",
+      "lru-dict",
+      "standard-aifc",
+      "standard-telnetlib",
+      "pymicro-vad",
+      "# when bumping httpx, please check the version pins of",
+      "awesomeversion",
+      "zeroconf",
+      "bcrypt",
+      "yarl",
+      "aiodns",
+      "# httpcore, anyio, and h11 in gen_requirements_all",
+      "pyyaml"
+    ],
+    "pydantic/pydantic-ai": [
+      "pydantic-ai-slim"
+    ],
+    "encode/httpx": [
+      "mkautodoc",
+      "pytest",
+      "mkdocs-material",
+      "httpcore",
+      "mkdocs",
+      "chardet",
+      "cryptography",
+      "mypy",
+      "anyio",
+      "ruff",
+      "uvicorn",
+      "idna",
+      "certifi",
+      "trio-typing",
+      "twine",
+      "coverage",
+      "build",
+      "trio",
+      "trustme"
+    ],
+    "NandhaKishorM/laya": [
+      "huggingface_hub",
+      "torch",
+      "safetensors",
+      "transformers",
+      "numpy"
+    ],
+    "pydantic/pydantic": [
+      "# keep this in sync with the version in the `check_pydantic_core_version()` function:",
+      "typing-inspection",
+      "annotated-types",
+      "pydantic-core",
+      "typing-extensions"
+    ],
+    "fastapi/typer": [
+      "rich",
+      "shellingham",
+      "annotated-doc",
+      "colorama"
+    ],
+    "python/mypy": [
+      "typing_extensions",
+      "mypy_extensions",
+      "# when changing this, also update build-system.requires and mypy-requirements.txt",
+      "ast-serialize",
+      "librt",
+      "pathspec",
+      "tomli"
+    ],
+    "coqui-ai/TTS": [
+      "fsspec",
+      "nltk",
+      "torchaudio",
+      "matplotlib",
+      "soundfile",
+      "librosa",
+      "g2pkk",
+      "scikit-learn",
+      "anyascii",
+      "aiohttp",
+      "bnunicodenormalizer",
+      "bangla",
+      "numba",
+      "numpy",
+      "cython",
+      "num2words",
+      "torch",
+      "pysbd",
+      "hangul_romanize",
+      "inflect",
+      "jamo",
+      "umap-learn",
+      "trainer",
+      "flask",
+      "gruut",
+      "bnnumerizer",
+      "spacy",
+      "scipy",
+      "unidecode",
+      "packaging",
+      "jieba",
+      "pandas",
+      "einops",
+      "coqpit",
+      "tqdm",
+      "pypinyin",
+      "transformers",
+      "encodec",
+      "pyyaml"
+    ],
+    "localstack/localstack": [
+      "requests",
+      "cachetools",
+      "python-dotenv",
+      "dnspython",
+      "click",
+      "asn1crypto",
+      "psutil",
+      "plux",
+      "rich",
+      "cryptography",
+      "pyyaml",
+      "semver",
+      "dnslib"
+    ],
+    "saleor/saleor": [
+      "azure-common",
+      "authlib",
+      "botocore",
+      "babel",
+      "azure-storage-common",
+      "dj-email-url",
+      "asgiref",
+      "azure-storage-blob",
+      "cryptography",
+      "dj-database-url",
+      "boto3",
+      "django"
+    ],
+    "CloakHQ/CloakBrowser": [
+      "cryptography",
+      "playwright",
+      "httpx"
+    ],
+    "getsentry/sentry": [
+      "google-crc32c",
+      "emmett-sentry",
+      "cssselect",
+      "google-cloud-build",
+      "brotli",
+      "googleapis-common-protos",
+      "boto3",
+      "cronsim",
+      "asyncpg",
+      "datadog",
+      "google-cloud-bigtable",
+      "django-crispy-forms",
+      "google-cloud-storage",
+      "granian",
+      "click",
+      "cryptography",
+      "google-cloud-core",
+      "google-cloud-functions",
+      "google-cloud-storage-transfer",
+      "beautifulsoup4",
+      "backports-zstd",
+      "emmett55",
+      "drf-spectacular",
+      "django",
+      "google-re2",
+      "fido2",
+      "botocore",
+      "cachetools",
+      "djangorestframework",
+      "google-cloud-kms",
+      "django-pg-zero-downtime-migrations",
+      "google-cloud-logging",
+      "google-cloud-pubsub",
+      "confluent-kafka",
+      "django-csp",
+      "google-cloud-spanner",
+      "google-auth",
+      "google-api-core",
+      "emmett-prometheus"
+    ],
+    "django/django": [
+      "asgiref",
+      "sqlparse",
+      "tzdata"
+    ],
+    "D4Vinci/Scrapling": [
+      "typing_extensions",
+      "lxml",
+      "orjson",
+      "w3lib",
+      "tld",
+      "cssselect"
+    ],
+    "NVIDIA/warp": [
+      "numpy"
+    ],
+    "pallets/flask": [
+      "werkzeug",
+      "itsdangerous",
+      "jinja2",
+      "click",
+      "markupsafe",
+      "blinker"
+    ],
+    "locustio/locust": [
+      "requests",
+      "flask",
+      "gevent",
+      "configargparse",
+      "typing_extensions",
+      "werkzeug",
+      "pyzmq",
+      "geventhttpclient",
+      "flask-login",
+      "psutil",
+      "flask-cors",
+      "pywin32",
+      "msgpack",
+      "python-socketio"
+    ],
+    "scikit-learn-contrib/imbalanced-learn": [
+      "joblib",
+      "scipy",
+      "sklearn-compat",
+      "scikit-learn",
+      "threadpoolctl",
+      "numpy"
+    ],
+    "Trusted-AI/adversarial-robustness-toolbox": [
+      "six",
+      "tqdm",
+      "scipy",
+      "scikit-learn",
+      "setuptools",
+      "numpy"
+    ],
+    "scrapy/scrapy": [
+      "brotlicffi",
+      "lxml",
+      "pyopenssl",
+      "cssselect",
+      "brotli",
+      "aiohttp",
+      "defusedxml",
+      "backports.zstd",
+      "# platform-specific dependencies",
+      "pypydispatcher",
+      "typing-extensions",
+      "formerly",
+      "cryptography",
+      "service_identity",
+      "pydispatcher",
+      "twisted",
+      "charset-normalizer",
+      "w3lib",
+      "packaging",
+      "itemadapter",
+      "protego",
+      "queuelib",
+      "itemloaders",
+      "zope.interface",
+      "parsel",
+      "platformdirs",
+      "tldextract"
+    ],
+    "microsoft/playwright-python": [
+      "pyee",
+      "greenlet",
+      "typing-extensions"
+    ],
+    "online-ml/river": [
+      "numpy",
+      "scipy",
+      "narwhals"
+    ],
+    "aiortc/aiortc": [
+      "cryptography",
+      "google-crc32c",
+      "av",
+      "pylibsrtp",
+      "pyopenssl",
+      "aioice",
+      "pyee"
+    ],
+    "GreyDGL/PentestGPT": [
+      "langfuse",
+      "anthropic",
+      "pydantic",
+      "python-dotenv",
+      "openai-codex",
+      "pydantic-settings",
+      "loguru",
+      "# the maintained framework resolves unified-agent from unifedagentwrapper instead.",
+      "openai",
+      "google-genai",
+      "prompt-toolkit",
+      "# transitional dependencies of the obsolete root unified_agent compatibility copy.",
+      "# modernized legacy pentestgpt: interactive ui + native multi-provider llm sdks.",
+      "rich",
+      "claude-agent-sdk",
+      "mcp",
+      "pyyaml"
+    ],
+    "pytest-dev/pytest": [
+      "pygments",
+      "iniconfig",
+      "exceptiongroup",
+      "packaging",
+      "pluggy",
+      "colorama",
+      "tomli"
+    ],
+    "IBM/mcp-context-forge": [
+      "argon2-cffi",
+      "h2",
+      "filelock",
+      "fastapi",
+      "click",
+      "gunicorn",
+      "cpex",
+      "base58",
+      "brotli",
+      "cryptography",
+      "alembic"
+    ],
+    "Textualize/textual": [
+      "tree-sitter-python",
+      "tree-sitter-json",
+      "tree-sitter-java",
+      "tree-sitter-toml",
+      "mdit-py-plugins",
+      "tree-sitter-markdown",
+      "tree-sitter-sql",
+      "tree-sitter-yaml",
+      "rich",
+      "tree-sitter-html",
+      "tree-sitter-go",
+      "typing-extensions",
+      "tree-sitter",
+      "tree-sitter-xml",
+      "tree-sitter-javascript",
+      "tree-sitter-rust",
+      "pygments",
+      "tree-sitter-regex",
+      "markdown-it-py",
+      "tree-sitter-bash",
+      "platformdirs",
+      "tree-sitter-css"
+    ],
+    "crossbario/autobahn-python": [
+      "# pypy-aarch64 wheels (50.0.1 is what resolves today). see #1947.",
+      "# see the",
+      "# cpython wheels are published). pypy is deliberately kept out of the native-",
+      "# extension matrix and pinned to 5.9.0 -- the final pure-python release of cbor2.",
+      "# because it is the last pure-python cbor2 and already carries the max_depth",
+      "# cpython uses native binary wheels where available",
+      "# float up to. the two lines are verified wire-equivalent: the wamp serdes",
+      "u-msgpack-python",
+      "msgpack",
+      "# wamp serializers - batteries included for optimal wamp protocol support",
+      "# like cbor2 -- the floor is raised to the first release clear of known cves.",
+      "# cryptography is rust/pyo3 with no pure-python fallback, so it cannot be capped",
+      "# bleichenbacher oracle only in 50.0.0.",
+      "# pypy (incl. pypy-aarch64) binary wheels have shipped since 46.0.0 (so",
+      "# the pypy-aarch64 ci timeout in #1947.) 5.9.0 is an *exact* pin, not a range",
+      "# decoder hardening for cve-2026-26209",
+      "ujson",
+      "cffi",
+      "cryptography",
+      "# pypy it would fail or source-compile rust under emulation -- the root cause of",
+      "# dependency: bjdata pulls in numpy, which we don't want in a minimal install.",
+      "# defensible security floor in 2026: cve-2026-26007 (high, sect subgroup) is",
+      "txaio",
+      "# note: the wamp \"ubjson\" serializer (bjdata) is an optional extra, not a base",
+      "importlib-resources",
+      "# each encodes/decodes the wamp-proto canonical cbor vectors byte-for-byte",
+      "# cbor2: cpython gets the current 6.x line (rust/pyo3, binary wheels everywhere",
+      "# (the 6.x rust line ships no pypy wheel and has no pure-python fallback, so on",
+      "hyperlink",
+      "# already avoids the qemu rust source-compile of #1947), but 46.x is not a",
+      "# known, reviewed divergence, not an accidental resolver failure. see #1859, #1947.",
+      "# identically. the cost is that pypy does not receive later cbor2 6.x fixes -- a",
+      "# conformance suite (examples/serdes, run on both cpython and pypy in ci) asserts",
+      "cbor2",
+      "# fixed in 46.0.5, cve-2026-39892 (buffer overflow) in 46.0.7, and the pkcs#7"
+    ],
+    "reflex-dev/reflex": [
+      "granian",
+      "click"
+    ],
+    "encode/django-rest-framework": [
+      "django"
+    ],
+    "tornadoweb/tornado": [
+      "requests",
+      "pathspec",
+      "alabaster",
+      "ast-serialize",
+      "pluggy",
+      "snowballstemmer",
+      "pyproject-api",
+      "babel",
+      "pyproject-hooks",
+      "docutils",
+      "tox",
+      "pycodestyle",
+      "flake8",
+      "click",
+      "virtualenv",
+      "librt",
+      "sphinxcontrib-jquery",
+      "colorama",
+      "sphinx-rtd-theme",
+      "roman-numerals",
+      "imagesize",
+      "sphinxcontrib-applehelp",
+      "distlib",
+      "pytokens",
+      "mypy",
+      "sphinxcontrib-devhelp",
+      "pygments",
+      "tomli-w",
+      "charset-normalizer",
+      "sphinxcontrib-htmlhelp",
+      "jinja2",
+      "packaging",
+      "urllib3",
+      "sphinxcontrib-serializinghtml",
+      "sphinxcontrib-jsmath",
+      "idna",
+      "sphinxcontrib-qthelp",
+      "black",
+      "sphinx",
+      "certifi",
+      "types-pycurl",
+      "pip-tools",
+      "cachetools",
+      "mypy-extensions",
+      "pyflakes",
+      "filelock",
+      "markupsafe",
+      "build",
+      "typing-extensions",
+      "python-discovery",
+      "mccabe",
+      "platformdirs"
+    ],
+    "erdewit/ib_insync": [
+      "eventkit",
+      "eventkit', 'nest_asyncio",
+      "dataclasses",
+      "nest_asyncio",
+      "backports.zoneinfo"
+    ],
+    "grantjenks/python-sortedcontainers": [
+      "bintrees",
+      "tox",
+      "rstcheck",
+      "matplotlib",
+      "twine",
+      "pytest",
+      "treap",
+      "scipy",
+      "pyannote-banyan",
+      "coverage",
+      "doc8",
+      "pytest-cov",
+      "gj",
+      "skiplistcollections",
+      "sphinx",
+      "pylint",
+      "blist"
+    ],
+    "ariebovenberg/whenever": [
+      "tzlocal",
+      "tzdata"
+    ],
+    "joestump/python-oauth2": [
+      "httplib2",
+      "pytest",
+      "pep8",
+      "mock"
+    ],
+    "py-why/dowhy": [
+      "cython",
+      "cvxpy",
+      "tqdm",
+      "matplotlib",
+      "causal-learn",
+      "networkx",
+      "scipy",
+      "sympy",
+      "joblib",
+      "pygraphviz",
+      "pandas",
+      "scikit-learn",
+      "statsmodels",
+      "econml",
+      "pydot",
+      "numba",
+      "numpy"
+    ],
+    "bczsalba/pytermgui": [
+      "wcwidth"
+    ],
+    "dgunning/edgartools": [
+      "# dec 2024",
+      "lxml",
+      "orjson",
+      "stamina",
+      "# be unexpected — do not auto-adopt it. the migration path is httpx2",
+      "httpx",
+      "rich",
+      "rapidfuzz",
+      "pydantic",
+      "nest-asyncio",
+      "# (edgartools-q2iz)",
+      "beautifulsoup4",
+      "jinja2",
+      "humanize",
+      "unidecode",
+      "pandas",
+      "tabulate",
+      "pyrate-limiter",
+      "pyarrow",
+      "tqdm",
+      "# upper cap is deliberate: httpx upstream is dormant (last release 0.28.1",
+      "textdistance",
+      "rank_bm25",
+      "# the"
+    ],
+    "hect0x7/JMComic-Crawler-Python": [
+      "curl_cffi",
+      "pycryptodome",
+      "commonx",
+      "pillow",
+      "curl-cffi",
+      "pyyaml"
+    ],
+    "google/pytype": [
+      "toml",
+      "msgspec",
+      "pyparsing",
+      "pycnite",
+      "tomlkit",
+      "pylint",
+      "ninja",
+      "networkx",
+      "typing-extensions",
+      "colorama",
+      "immutabledict",
+      "attrs",
+      "pydot",
+      "jinja2",
+      "tabulate",
+      "dill",
+      "astroid",
+      "importlab",
+      "pybind11",
+      "libcst",
+      "markupsafe",
+      "isort",
+      "mccabe",
+      "platformdirs",
+      "pyyaml"
+    ],
+    "vitalik/django-ninja": [
+      "django",
+      "pydantic"
+    ],
+    "RhinoSecurityLabs/pacu": [
+      "toml",
+      "requests",
+      "pytest",
+      "sqlalchemy",
+      "chalice",
+      "freezegun",
+      "boto3-stubs",
+      "boto3",
+      "pycognito",
+      "flake8",
+      "sqlalchemy-utils",
+      "typing-extensions",
+      "importlib-metadata",
+      "policyuniverse",
+      "dsnap",
+      "awscli",
+      "mypy",
+      "urllib3",
+      "moto",
+      "botocore",
+      "types-urllib3",
+      "jq",
+      "pyyaml",
+      "qrcode"
+    ],
+    "Instagram/MonkeyType": [
+      "libcst",
+      "mypy_extensions"
+    ],
+    "widgetti/solara": [
+      "requests",
+      "executing",
+      "humanize",
+      "ipyvue",
+      "reacton",
+      "ipywidgets",
+      "ipyvuetify"
+    ],
+    "kellyjonbrazil/jc": [
+      "pygments",
+      "xmltodict",
+      "ruamel.yaml"
+    ],
+    "postmanlabs/httpbin": [
+      "raven",
+      "flask', 'markupsafe', 'decorator', 'itsdangerous', 'six', 'brotlipy"
+    ],
+    "seleniumbase/SeleniumBase": [
+      "requests",
+      "pytest-metadata",
+      "wheel",
+      "fasteners",
+      "pytest",
+      "pytest-ordering",
+      "pytest-rerunfailures",
+      "pip",
+      "selenium",
+      "cssselect",
+      "tabcompleter",
+      "trio-websocket",
+      "pluggy",
+      "soupsieve",
+      "rich",
+      "behave",
+      "pynose",
+      "setuptools",
+      "h11",
+      "pycodestyle",
+      "iniconfig",
+      "wsproto",
+      "flake8",
+      "pytest-html",
+      "sortedcontainers",
+      "pytest-cov",
+      "colorama",
+      "typing-extensions",
+      "attrs",
+      "mycdp",
+      "websocket-client",
+      "six",
+      "outcome",
+      "pygments",
+      "sniffio",
+      "charset-normalizer",
+      "parse",
+      "beautifulsoup4",
+      "exceptiongroup",
+      "jinja2",
+      "python-xlib",
+      "packaging",
+      "urllib3",
+      "mdurl",
+      "parse-type",
+      "pdbp",
+      "idna",
+      "markdown-it-py",
+      "certifi",
+      "parameterized",
+      "websockets",
+      "pyflakes",
+      "filelock",
+      "markupsafe",
+      "psutil",
+      "execnet",
+      "pytest-xdist",
+      "sbvirtualdisplay",
+      "trio",
+      "pyreadline3",
+      "pyotp",
+      "mccabe",
+      "pyautogui",
+      "coverage",
+      "pyyaml"
+    ],
+    "fastapi-users/fastapi-users": [
+      "pytest-mock",
+      "pytest",
+      "httpx",
+      "mkdocs-material",
+      "mkdocs",
+      "pytest-cov",
+      "mypy",
+      "pytest-asyncio",
+      "pygments",
+      "mkdocs-mermaid2-plugin",
+      "ruff",
+      "markdown-include",
+      "asgi_lifespan",
+      "uvicorn",
+      "mike",
+      "httpx-oauth",
+      "isort",
+      "types-redis",
+      "pymdown-extensions"
+    ],
+    "OWASP/Nettacker": [
+      "requests",
+      "pytest",
+      "sqlalchemy",
+      "zipp",
+      "pyopenssl",
+      "argparse",
+      "netaddr",
+      "aiohttp",
+      "texttable",
+      "ipython",
+      "pytest-cov",
+      "apsw",
+      "paramiko",
+      "impacket",
+      "pytest-asyncio",
+      "flask",
+      "uvloop",
+      "ruff",
+      "ipaddr",
+      "pymysql",
+      "asyncio",
+      "py3dns",
+      "pysocks",
+      "coverage",
+      "pytest-xdist",
+      "multiprocess",
+      "schema",
+      "pyyaml"
+    ],
+    "aiogram/aiogram": [
+      "pydantic",
+      "aiofiles",
+      "magic-filter",
+      "typing-extensions",
+      "babel",
+      "aiohttp",
+      "certifi"
+    ],
+    "strawberry-graphql/strawberry": [
+      "packaging",
+      "graphql-core",
+      "typing-extensions",
+      "cross-web",
+      "python-dateutil"
+    ],
+    "holoviz/panel": [
+      "nh3",
+      "requests",
+      "bokeh",
+      "typing_extensions",
+      "pyviz_comms",
+      "markdown",
+      "linkify-it-py",
+      "param",
+      "tqdm',  # todo: should this be optional?",
+      "narwhals",
+      "packaging",
+      "pandas",
+      "mdit-py-plugins",
+      "markdown-it-py",
+      "panel-material-ui"
+    ],
+    "tschellenbach/Django-facebook": [
+      "django",
+      "unidecode"
+    ],
+    "jpadilla/django-rest-framework-jwt": [
+      "pyjwt"
+    ],
+    "spec-first/connexion": [
+      "requests",
+      "werkzeug",
+      "swagger-ui-bundle",
+      "httpx",
+      "asgiref",
+      "jsonschema",
+      "starlette",
+      "typing-extensions",
+      "flask",
+      "clickclick",
+      "jinja2",
+      "referencing",
+      "inflection",
+      "python-multipart",
+      "uvicorn",
+      "jsf",
+      "openapi-spec-validator",
+      "a2wsgi",
+      "pyyaml"
+    ],
+    "cobrateam/splinter": [
+      "urllib3"
+    ],
+    "vibora-io/vibora": [
+      "cython"
+    ],
+    "dry-python/returns": [
+      "pytest",
+      "mypy",
+      "typing-extensions",
+      "hypothesis"
+    ],
+    "dipy/dipy": [
+      "tqdm",
+      "nibabel",
+      "h5py",
+      "scipy",
+      "packaging",
+      "trx-python",
+      "numpy"
+    ],
+    "webdataset/webdataset": [
+      "braceexpand",
+      "pyyaml",
+      "numpy"
+    ],
+    "man-group/arctic": [
+      "mockextras",
+      "pymongo",
+      "lz4",
+      "enum-compat",
+      "pytz",
+      "pandas",
+      "tzlocal",
+      "decorator",
+      "mock",
+      "numpy"
+    ],
+    "pvlib/pvlib-python": [
+      "requests",
+      "pytz",
+      "h5py",
+      "scipy",
+      "pandas",
+      "tzdata', # ensure all timezones are available in all installs for consistency gh#2795",
+      "numpy"
+    ],
+    "Jittor/jittor": [
+      "tqdm",
+      "astunparse",
+      "pillow",
+      "pywin32",
+      "numpy"
+    ],
+    "web2py/web2py": [
+      "gunicorn",
+      "google-cloud-firestore"
+    ],
+    "NervanaSystems/neon": [
+      "pytest-mock",
+      "pytest",
+      "pep8",
+      "pandoc",
+      "pylint",
+      "numpy",
+      "posix_ipc",
+      "configargparse",
+      "flake8",
+      "h5py",
+      "pytest-cov",
+      "cffi",
+      "pillow",
+      "pypandoc",
+      "sphinx",
+      "appdirs",
+      "future",
+      "tqdm",
+      "filelock",
+      "py-cpuinfo",
+      "pyyaml"
+    ]
+  },
+  "stats": {
+    "edges": 856,
+    "repos": 70,
+    "built_at": "2026-10-06T11:22:28.496190"
+  }
+}

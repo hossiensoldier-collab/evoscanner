@@ -180,3 +180,4 @@ class Orchestrator:
             print("     مسائل:")
             for i in c["issues"]:
                 print(f"     • {i}")
+

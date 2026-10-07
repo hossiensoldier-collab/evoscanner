@@ -96,3 +96,4 @@ def serve(kb, evo, port=8080):
         HTTPServer(("", port), Handler).serve_forever()
     except KeyboardInterrupt:
         print("\n⏸ متوقف شد")
+

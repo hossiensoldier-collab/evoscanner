@@ -20,6 +20,12 @@ REPORT = BASE / "report.md"
 SSL_CTX = ssl.create_default_context()
 SSL_CTX.check_hostname = False
 SSL_CTX.verify_mode = ssl.CERT_NONE
+try:
+    from auth import get_token as _get_gh_token
+    _GH_TOKEN = _get_gh_token()
+except Exception:
+    _GH_TOKEN = ""
+
 UA = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
                   "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -34,7 +40,19 @@ UA = {
 
 class KB:
     def __init__(self):
-        self.conn = sqlite3.connect(DB)
+        self.conn = sqlite3.connect(
+            DB,
+            timeout=30,
+            isolation_level=None,
+            check_same_thread=False,
+        )
+        try:
+            self.conn.execute("PRAGMA journal_mode=WAL")
+            self.conn.execute("PRAGMA busy_timeout=30000")
+            self.conn.execute("PRAGMA synchronous=NORMAL")
+        except Exception:
+            pass
+        self.conn.isolation_level = ""
         self.conn.execute("""CREATE TABLE IF NOT EXISTS resources(
             hash TEXT PRIMARY KEY, url TEXT, title TEXT, content TEXT,
             source TEXT, score REAL, tags TEXT, found_at TEXT)""")
@@ -221,7 +239,13 @@ def github(q, n=5):
         "q": f"{q} language:python", "sort": sort_by,
         "order": "desc", "per_page": n, "page": page})
     try:
-        data = json.loads(get(url))
+        _req = urllib.request.Request(url, headers=UA)
+        if _GH_TOKEN:
+            _req.add_header("Authorization", "token " + _GH_TOKEN)
+            _req.add_header("Accept", "application/vnd.github+json")
+        with urllib.request.urlopen(_req, timeout=20,
+                                    context=SSL_CTX) as _r:
+            data = json.loads(_r.read().decode("utf-8", errors="ignore"))
         out = []
         for it in data.get("items", []):
             out.append({
@@ -376,7 +400,7 @@ SCANNERS = [
     ("github", github),
     ("arxiv", arxiv),
     ("stackoverflow", stackoverflow),
-    ("gitlab", gitlab),
+    #("gitlab", gitlab),
     ("devto", devto),
 ]
 
@@ -652,6 +676,79 @@ def main():
 
     if len(sys.argv) > 1:
         cmd = sys.argv[1]
+        if cmd == "automate":
+            import json
+            from pathlib import Path as _P
+            topics = [
+                "python automation", "selenium", "playwright", "pyautogui",
+                "schedule task", "cron alternative", "webhook",
+                "telegram bot", "discord bot", "scrapy", "browser automation",
+                "zapier alternative", "n8n alternative", "node-red",
+                "airflow", "prefect", "dagster", "celery", "rq",
+                "workflow engine", "rpa", "crawler", "bot framework",
+            ]
+            sf = _P("evolution.json")
+            state = json.loads(sf.read_text()) if sf.exists() else {}
+            state["active"] = list(dict.fromkeys(
+                state.get("active", []) + topics))[:40]
+            sf.write_text(json.dumps(state, indent=2))
+            print(f"✓ {len(topics)} automation topic added to queue")
+            print("  Run: python evoscanner_v2.py run 3")
+            return
+
+        if cmd == "learn":
+            from feedback import FeedbackHunter
+            fh = FeedbackHunter(kb)
+            if len(sys.argv) > 2 and sys.argv[2] == "report":
+                fh.report(); return
+            if len(sys.argv) > 2 and sys.argv[2] == "weak":
+                weak = fh.weak_queries()
+                if not weak:
+                    print("  ✓ کوئری ضعیفی نیست")
+                else:
+                    print("\n📉 کوئری‌های ضعیف:\n")
+                    for q, s in weak:
+                        print(f"  {q[:50]:50s} avg={s['avg']:.2f} tries={s['tried']}")
+                return
+            # انتخاب ۶ کوئری جدید
+            qs = fh.select(6)
+            print("\n🎯 کوئری‌های انتخابی UCB:\n")
+            for q in qs:
+                print(f"  • {q}")
+            state = evo.state
+            state["active"] = list(dict.fromkeys(state["active"] + qs))[:30]
+            evo._save()
+            print(f"\n  ✓ به لیست فعال اضافه شد")
+            return
+
+        if cmd == "discover":
+            from discover import discover, propose_cats
+            k = int(sys.argv[2]) if len(sys.argv) > 2 else 6
+            props = discover(kb, k=k)
+            new_cats = propose_cats(props)
+            if new_cats:
+                print(f"\n💡 برای افزودن دسته‌های جدید:")
+                for c in new_cats:
+                    print(f"   • {c}")
+            return
+
+        if cmd == "compress":
+            from compress import merge_similar_entities, archive_old, report
+            from graph import Graph
+            g = Graph()
+            print("\n📦 فشرده‌سازی...\n")
+            m = merge_similar_entities(g, min_cooc=2)
+            print(f"  ✓ {m} موجودیت ادغام شد")
+            a = archive_old(kb, min_age_days=60, max_score=0.4)
+            print(f"  ✓ {a} منبع آرشیو شد")
+            report(g, kb)
+            return
+
+        if cmd == "compress-report":
+            from compress import report
+            from graph import Graph
+            report(Graph(), kb); return
+
         if cmd == "ask":
             from rag import ask
             q = " ".join(sys.argv[2:]) if len(sys.argv) > 2 else ""
@@ -874,6 +971,11 @@ def main():
             port = int(sys.argv[2]) if len(sys.argv) > 2 else 8080
             serve(kb, evo, port); return
 
+        if cmd == "graphweb":
+            from graph_web import serve
+            port = int(sys.argv[2]) if len(sys.argv) > 2 else 8080
+            serve(port); return
+
         if cmd == "explore":
             explore(kb, evo); return
         if cmd == "stats":
@@ -981,3 +1083,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

@@ -59,6 +59,14 @@ CATS = {
         "c": ["ci cd", "github actions", "deployment", "pipeline",
               "container", "orchestration"],
     },
+    "automation": {
+        "t": ["selenium", "playwright", "pyautogui", "scheduler",
+              "workflow", "airflow", "prefect", "dagster", "celery",
+              "dramatiq", "rq", "robot", "rpa", "zapier", "n8n",
+              "node-red", "huginn", "windmill", "activepieces"],
+        "c": ["automation", "bot", "crawler", "scheduler", "task queue",
+              "background job", "webhook", "trigger", "workflow engine"],
+    },
     "bots": {
         "t": ["slack-sdk", "telegram", "discord"],
         "c": ["chatbot", "bot framework", "messaging"],
@@ -119,3 +127,4 @@ def recategorize(kb):
     kb.conn.commit()
     print(f"  🔄 {n} منبع دوباره دسته‌بندی شد")
     return n
+

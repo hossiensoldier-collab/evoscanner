@@ -1,0 +1,1176 @@
+{
+  "schema": "evoscanner.import_audit.v1",
+  "python_files": 109,
+  "local_import_edges": [
+    {
+      "from": "agents",
+      "to": "classifier",
+      "line": 75
+    },
+    {
+      "from": "agents",
+      "to": "classifier",
+      "line": 75
+    },
+    {
+      "from": "agents",
+      "to": "graph",
+      "line": 81
+    },
+    {
+      "from": "agents",
+      "to": "graph",
+      "line": 81
+    },
+    {
+      "from": "android_app.api",
+      "to": "evoscanner_v2",
+      "line": 88
+    },
+    {
+      "from": "android_app.api",
+      "to": "evoscanner_v2",
+      "line": 88
+    },
+    {
+      "from": "android_app.api",
+      "to": "rag",
+      "line": 87
+    },
+    {
+      "from": "android_app.api",
+      "to": "rag",
+      "line": 87
+    },
+    {
+      "from": "android_app.api",
+      "to": "rag",
+      "line": 101
+    },
+    {
+      "from": "android_app.api",
+      "to": "rag",
+      "line": 101
+    },
+    {
+      "from": "android_app.api",
+      "to": "rag",
+      "line": 101
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "agents",
+      "line": 803
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "agents",
+      "line": 803
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "agents",
+      "line": 815
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "agents",
+      "line": 815
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "autopath",
+      "line": 921
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "autopath",
+      "line": 921
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "classifier",
+      "line": 760
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "classifier",
+      "line": 760
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "classifier",
+      "line": 784
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "classifier",
+      "line": 784
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "classifier",
+      "line": 877
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "classifier",
+      "line": 877
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "compress",
+      "line": 692
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "compress",
+      "line": 692
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "compress",
+      "line": 692
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "compress",
+      "line": 692
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "compress",
+      "line": 704
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "compress",
+      "line": 704
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "discover",
+      "line": 681
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "discover",
+      "line": 681
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "discover",
+      "line": 681
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "exporter",
+      "line": 881
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "exporter",
+      "line": 881
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "exporter",
+      "line": 885
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "exporter",
+      "line": 885
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "exporter",
+      "line": 889
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "exporter",
+      "line": 889
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "exporter",
+      "line": 893
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "exporter",
+      "line": 893
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "feedback",
+      "line": 656
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "feedback",
+      "line": 656
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "fetcher",
+      "line": 754
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "fetcher",
+      "line": 754
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "goals",
+      "line": 716
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "goals",
+      "line": 716
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "goals",
+      "line": 716
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "goals",
+      "line": 716
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "goals",
+      "line": 731
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "goals",
+      "line": 731
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "graph",
+      "line": 693
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "graph",
+      "line": 693
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "graph",
+      "line": 705
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "graph",
+      "line": 705
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "graph",
+      "line": 741
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "graph",
+      "line": 741
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "graph",
+      "line": 759
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "graph",
+      "line": 759
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "graph",
+      "line": 770
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "graph",
+      "line": 770
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "graph",
+      "line": 783
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "graph",
+      "line": 783
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "graph",
+      "line": 793
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "graph",
+      "line": 793
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "graph",
+      "line": 819
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "graph",
+      "line": 819
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "graph",
+      "line": 827
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "graph",
+      "line": 827
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "graph",
+      "line": 835
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "graph",
+      "line": 835
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "graph",
+      "line": 845
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "graph",
+      "line": 845
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "graph",
+      "line": 862
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "graph",
+      "line": 862
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "graph_web",
+      "line": 931
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "graph_web",
+      "line": 931
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "rag",
+      "line": 709
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "rag",
+      "line": 709
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "selfmod",
+      "line": 897
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "selfmod",
+      "line": 897
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "suggest",
+      "line": 917
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "suggest",
+      "line": 917
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "webui",
+      "line": 926
+    },
+    {
+      "from": "android_app.evoscanner_v2",
+      "to": "webui",
+      "line": 926
+    },
+    {
+      "from": "android_app.extractor",
+      "to": "evoscanner_v2",
+      "line": 194
+    },
+    {
+      "from": "android_app.extractor",
+      "to": "evoscanner_v2",
+      "line": 194
+    },
+    {
+      "from": "android_app.graphics",
+      "to": "evoscanner_v2",
+      "line": 135
+    },
+    {
+      "from": "android_app.graphics",
+      "to": "evoscanner_v2",
+      "line": 135
+    },
+    {
+      "from": "android_app.learn",
+      "to": "evoscanner_v2",
+      "line": 147
+    },
+    {
+      "from": "android_app.learn",
+      "to": "evoscanner_v2",
+      "line": 147
+    },
+    {
+      "from": "android_app.learn",
+      "to": "extractor",
+      "line": 37
+    },
+    {
+      "from": "android_app.learn",
+      "to": "extractor",
+      "line": 37
+    },
+    {
+      "from": "android_app.learn",
+      "to": "extractor",
+      "line": 135
+    },
+    {
+      "from": "android_app.learn",
+      "to": "extractor",
+      "line": 135
+    },
+    {
+      "from": "android_app.learn",
+      "to": "graphics",
+      "line": 16
+    },
+    {
+      "from": "android_app.learn",
+      "to": "graphics",
+      "line": 16
+    },
+    {
+      "from": "android_app.learn",
+      "to": "graphics",
+      "line": 136
+    },
+    {
+      "from": "android_app.learn",
+      "to": "graphics",
+      "line": 136
+    },
+    {
+      "from": "android_app.learn",
+      "to": "graphics",
+      "line": 157
+    },
+    {
+      "from": "android_app.learn",
+      "to": "graphics",
+      "line": 157
+    },
+    {
+      "from": "android_app.sources",
+      "to": "auth",
+      "line": 9
+    },
+    {
+      "from": "android_app.sources",
+      "to": "auth",
+      "line": 9
+    },
+    {
+      "from": "api",
+      "to": "evoscanner_v2",
+      "line": 88
+    },
+    {
+      "from": "api",
+      "to": "evoscanner_v2",
+      "line": 88
+    },
+    {
+      "from": "api",
+      "to": "rag",
+      "line": 87
+    },
+    {
+      "from": "api",
+      "to": "rag",
+      "line": 87
+    },
+    {
+      "from": "api",
+      "to": "rag",
+      "line": 101
+    },
+    {
+      "from": "api",
+      "to": "rag",
+      "line": 101
+    },
+    {
+      "from": "api",
+      "to": "rag",
+      "line": 101
+    },
+    {
+      "from": "deleted_features.feature_causal",
+      "to": "ai_agent",
+      "line": 246
+    },
+    {
+      "from": "deleted_features.feature_causal",
+      "to": "ai_agent",
+      "line": 287
+    },
+    {
+      "from": "deleted_features.feature_causal",
+      "to": "evoscanner_v2",
+      "line": 486
+    },
+    {
+      "from": "deleted_features.feature_causal",
+      "to": "evoscanner_v2",
+      "line": 486
+    },
+    {
+      "from": "deleted_features.feature_rag_v3",
+      "to": "evoscanner_v2",
+      "line": 270
+    },
+    {
+      "from": "deleted_features.feature_rag_v3",
+      "to": "evoscanner_v2",
+      "line": 270
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "agents",
+      "line": 847
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "agents",
+      "line": 847
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "agents",
+      "line": 859
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "agents",
+      "line": 859
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "auth",
+      "line": 24
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "auth",
+      "line": 24
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "autopath",
+      "line": 965
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "autopath",
+      "line": 965
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "classifier",
+      "line": 804
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "classifier",
+      "line": 804
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "classifier",
+      "line": 828
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "classifier",
+      "line": 828
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "classifier",
+      "line": 921
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "classifier",
+      "line": 921
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "compress",
+      "line": 736
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "compress",
+      "line": 736
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "compress",
+      "line": 736
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "compress",
+      "line": 736
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "compress",
+      "line": 748
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "compress",
+      "line": 748
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "discover",
+      "line": 725
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "discover",
+      "line": 725
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "discover",
+      "line": 725
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "exporter",
+      "line": 925
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "exporter",
+      "line": 925
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "exporter",
+      "line": 929
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "exporter",
+      "line": 929
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "exporter",
+      "line": 933
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "exporter",
+      "line": 933
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "exporter",
+      "line": 937
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "exporter",
+      "line": 937
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "feedback",
+      "line": 700
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "feedback",
+      "line": 700
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "fetcher",
+      "line": 798
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "fetcher",
+      "line": 798
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "goals",
+      "line": 760
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "goals",
+      "line": 760
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "goals",
+      "line": 760
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "goals",
+      "line": 760
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "goals",
+      "line": 775
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "goals",
+      "line": 775
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "graph",
+      "line": 737
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "graph",
+      "line": 737
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "graph",
+      "line": 749
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "graph",
+      "line": 749
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "graph",
+      "line": 785
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "graph",
+      "line": 785
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "graph",
+      "line": 803
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "graph",
+      "line": 803
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "graph",
+      "line": 814
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "graph",
+      "line": 814
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "graph",
+      "line": 827
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "graph",
+      "line": 827
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "graph",
+      "line": 837
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "graph",
+      "line": 837
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "graph",
+      "line": 863
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "graph",
+      "line": 863
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "graph",
+      "line": 871
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "graph",
+      "line": 871
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "graph",
+      "line": 879
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "graph",
+      "line": 879
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "graph",
+      "line": 889
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "graph",
+      "line": 889
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "graph",
+      "line": 906
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "graph",
+      "line": 906
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "graph_web",
+      "line": 975
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "graph_web",
+      "line": 975
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "rag",
+      "line": 753
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "rag",
+      "line": 753
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "selfmod",
+      "line": 941
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "selfmod",
+      "line": 941
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "suggest",
+      "line": 961
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "suggest",
+      "line": 961
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "webui",
+      "line": 970
+    },
+    {
+      "from": "evoscanner_v2",
+      "to": "webui",
+      "line": 970
+    },
+    {
+      "from": "extractor",
+      "to": "evoscanner_v2",
+      "line": 194
+    },
+    {
+      "from": "extractor",
+      "to": "evoscanner_v2",
+      "line": 194
+    },
+    {
+      "from": "feature_agent_chain",
+      "to": "classifier",
+      "line": 90
+    },
+    {
+      "from": "feature_agent_chain",
+      "to": "classifier",
+      "line": 90
+    },
+    {
+      "from": "feature_agent_chain",
+      "to": "evoscanner_v2",
+      "line": 357
+    },
+    {
+      "from": "feature_agent_chain",
+      "to": "evoscanner_v2",
+      "line": 357
+    },
+    {
+      "from": "feature_agent_chain",
+      "to": "evoscanner_v2",
+      "line": 358
+    },
+    {
+      "from": "feature_agent_chain",
+      "to": "evoscanner_v2",
+      "line": 358
+    },
+    {
+      "from": "feature_agent_chain",
+      "to": "graph",
+      "line": 95
+    },
+    {
+      "from": "feature_agent_chain",
+      "to": "graph",
+      "line": 95
+    },
+    {
+      "from": "feature_deps",
+      "to": "auth",
+      "line": 20
+    },
+    {
+      "from": "feature_deps",
+      "to": "auth",
+      "line": 20
+    },
+    {
+      "from": "feature_deps",
+      "to": "evoscanner_v2",
+      "line": 285
+    },
+    {
+      "from": "feature_deps",
+      "to": "evoscanner_v2",
+      "line": 285
+    },
+    {
+      "from": "feature_learn_skill",
+      "to": "evoscanner_v2",
+      "line": 341
+    },
+    {
+      "from": "feature_learn_skill",
+      "to": "evoscanner_v2",
+      "line": 341
+    },
+    {
+      "from": "feature_meta",
+      "to": "evoscanner_v2",
+      "line": 488
+    },
+    {
+      "from": "feature_meta",
+      "to": "evoscanner_v2",
+      "line": 488
+    },
+    {
+      "from": "feature_meta",
+      "to": "feature_capability",
+      "line": 375
+    },
+    {
+      "from": "feature_meta",
+      "to": "feature_capability",
+      "line": 375
+    },
+    {
+      "from": "feature_metadata",
+      "to": "evoscanner_v2",
+      "line": 354
+    },
+    {
+      "from": "feature_metadata",
+      "to": "evoscanner_v2",
+      "line": 354
+    },
+    {
+      "from": "feature_rag_v4",
+      "to": "evoscanner_v2",
+      "line": 356
+    },
+    {
+      "from": "feature_rag_v4",
+      "to": "evoscanner_v2",
+      "line": 356
+    },
+    {
+      "from": "graphics",
+      "to": "evoscanner_v2",
+      "line": 135
+    },
+    {
+      "from": "graphics",
+      "to": "evoscanner_v2",
+      "line": 135
+    },
+    {
+      "from": "learn",
+      "to": "evoscanner_v2",
+      "line": 147
+    },
+    {
+      "from": "learn",
+      "to": "evoscanner_v2",
+      "line": 147
+    },
+    {
+      "from": "learn",
+      "to": "extractor",
+      "line": 37
+    },
+    {
+      "from": "learn",
+      "to": "extractor",
+      "line": 37
+    },
+    {
+      "from": "learn",
+      "to": "extractor",
+      "line": 135
+    },
+    {
+      "from": "learn",
+      "to": "extractor",
+      "line": 135
+    },
+    {
+      "from": "learn",
+      "to": "graphics",
+      "line": 16
+    },
+    {
+      "from": "learn",
+      "to": "graphics",
+      "line": 16
+    },
+    {
+      "from": "learn",
+      "to": "graphics",
+      "line": 136
+    },
+    {
+      "from": "learn",
+      "to": "graphics",
+      "line": 136
+    },
+    {
+      "from": "learn",
+      "to": "graphics",
+      "line": 157
+    },
+    {
+      "from": "learn",
+      "to": "graphics",
+      "line": 157
+    },
+    {
+      "from": "selfmod",
+      "to": "suggest",
+      "line": 126
+    },
+    {
+      "from": "selfmod",
+      "to": "suggest",
+      "line": 126
+    },
+    {
+      "from": "sources",
+      "to": "auth",
+      "line": 9
+    },
+    {
+      "from": "sources",
+      "to": "auth",
+      "line": 9
+    }
+  ],
+  "parse_errors": [
+    {
+      "file": "fix_v12.py",
+      "error": "unexpected indent (fix_v12.py, line 198)"
+    },
+    {
+      "file": "smart.py",
+      "error": "invalid syntax (smart.py, line 3)"
+    }
+  ]
+}
