@@ -88,7 +88,7 @@ pre.err{border-color:var(--red)}
       <div class="card c3" onclick="openModal('get')"><div class="icon">📥</div><div class="name">GET</div><div class="sub">جذب منابع</div></div>
       <div class="card c2" onclick="openModal('learn')"><div class="icon">🎓</div><div class="name">LEARN</div><div class="sub">یادگیری</div></div>
       <div class="card c4" onclick="openModal('evolve')"><div class="icon">🧬</div><div class="name">EVOLVE</div><div class="sub">خودارتقایی</div></div>
-      <div class="card c6" onclick="openModal('graph')"><div class="icon">📊</div><div class="name">GRAPH</div><div class="sub">گراف</div></div>
+      <div class="card c6" onclick="showGraphSVG()"><div class="icon">🕸</div><div class="name">GRAPH</div><div class="sub">SVG</div></div>
       <div class="card c5" onclick="openModal('search')"><div class="icon">🔍</div><div class="name">SEARCH</div><div class="sub">جستجو</div></div>
     </div>
   </div>
@@ -365,6 +365,7 @@ class H(BaseHTTPRequestHandler):
             "/api/sacred":    lambda: self._sacred(),
             "/api/cortex":    lambda: self._cortex(q),
             "/api/cortex_history": lambda: self._cortex_history(),
+            "/api/graph_svg": lambda: self._graph_svg(),
         }
         if self.path.startswith("/api/log/"):
             name = self.path.split("/")[-1]
@@ -521,6 +522,37 @@ cortex.save_mem(mem)
                 out.append(f"  {n:12} used={v['used']:>3}  {rate:>3}%")
             return "\n".join(out)
         except Exception as e: return f"خطا: {e}"
+
+    def _graph_svg(self):
+        """گراف SVG — ۳۰ نود برتر"""
+        import random
+        db = HOME/"knowledgeforge"/"knowledge.db"
+        if not db.exists(): db = find_db()
+        if not db: return '{"error": "no db"}'
+        try:
+            c = sqlite3.connect(db)
+            # نودهای متصل
+            try:
+                rows = c.execute("""
+                    SELECT n.label, COUNT(e.id) as deg
+                    FROM nodes n
+                    LEFT JOIN edges e ON n.id = e.src OR n.id = e.dst
+                    WHERE n.label != ''
+                    GROUP BY n.id
+                    ORDER BY deg DESC
+                    LIMIT 30
+                """).fetchall()
+            except:
+                rows = c.execute("SELECT label, 1 FROM nodes WHERE label!='' LIMIT 30").fetchall()
+            
+            nodes = [{"id": i, "label": r[0][:20], "deg": r[1] or 1} for i, r in enumerate(rows)]
+            # یال‌های ساده: زنجیره
+            edges = [{"s": i, "t": (i+1) % len(nodes)} for i in range(len(nodes)-1)]
+            
+            import json as _j
+            return _j.dumps({"nodes": nodes, "edges": edges})
+        except Exception as e:
+            return f'{{"error": "{e}"}}'
 
     def _log(self, name):
         p = EVO / f"{name}.log"

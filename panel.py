@@ -16,6 +16,8 @@ import panel_test
 import health
 import plugin_system
 import cortex
+import cortex_chain
+import mind
 import autoheal
 
 BASE = Path.home() / "evoscanner"
@@ -309,6 +311,8 @@ def main_menu():
     menu_item(22, "CORTEX", "ایجنت خودمختار", C.CY)
     menu_item(30, "QUOTE", "جمله الهام‌بخش", C.CY)
     menu_item(31, "STATS", "آمار سریع", C.CY)
+    menu_item(32, "CHAIN", "CORTEX چند-مرحله‌ای", C.PU)
+    menu_item(35, "MIND", "هوشیاری درونی", C.PU)
     print(f"  {C.GY}│{C.R}")
 
     group("POWER")
@@ -1331,6 +1335,27 @@ def main():
             elif c == "31":
                 clear()
                 _run_plugin("plugin_stats.py")
+            elif c == "32":
+                clear()
+                try:
+                    cortex_chain.main_menu()
+                except Exception as e:
+                    print(f"خطا: {e}")
+                    pause()
+            elif c == "35":
+                clear()
+                try:
+                    mind.menu()
+                except Exception as e:
+                    print(f"خطا: {e}")
+                    pause()
+            elif c == "35":
+                clear()
+                try:
+                    mind.main_menu()
+                except Exception as e:
+                    print(f"خطا: {e}")
+                    pause()
             else:
                 clear()
                 run_cmd("search", c)

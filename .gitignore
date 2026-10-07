@@ -59,3 +59,22 @@ evosh
 api.pid
 auto.pid
 [
+
+# MIND state
+mind_state.json
+mind.log
+mind_out.log
+
+# junk
+ngrok*
+organize.py
+STRUCTURE.md
+webapp/8.8.8.8*
+webapp/ENDONLINE
+webapp/cloudflared
+webapp/echo
+core/
+agents/
+tools/
+web/
+features/
