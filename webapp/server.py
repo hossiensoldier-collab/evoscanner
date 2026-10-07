@@ -139,7 +139,7 @@ class Handler(BaseHTTPRequestHandler):
             return f"خطا: {e}"
 
 if __name__ == "__main__":
-    port = 8080
+    port = 8090
     try:
         ip = socket.gethostbyname(socket.gethostname())
     except:

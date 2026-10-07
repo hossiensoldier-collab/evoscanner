@@ -14,6 +14,7 @@ import selfcare
 import deep_test
 import panel_test
 import health
+import plugin_system
 import cortex
 import autoheal
 
@@ -239,6 +240,28 @@ def run_py_capture(script, *args, timeout=60):
 #  MAIN MENU
 # ═══════════════════════════════════════════════════
 
+
+
+def _run_plugin(filename):
+    """اجرای یه plugin از پوشه plugins"""
+    import importlib.util
+    f = BASE / "plugins" / filename
+    if not f.exists():
+        print(f"  {C.RD}plugin پیدا نشد: {f}{C.R}")
+        pause(); return
+    try:
+        spec = importlib.util.spec_from_file_location(f.stem, str(f))
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        if hasattr(mod, "run"):
+            mod.run()
+        else:
+            print(f"  {C.RD}تابع run() در plugin نیست{C.R}")
+            pause()
+    except Exception as e:
+        print(f"  {C.RD}خطا: {e}{C.R}")
+        pause()
+
 def main_menu():
     header()
     print(f"  {C.PU}{C.B}▸ NEXT{C.R}")
@@ -284,6 +307,8 @@ def main_menu():
     menu_item(20, "TEST", "تست سریع پنل", C.CY)
     menu_item(21, "DEEP-TEST", "تست کامل زیرمنوها", C.CY)
     menu_item(22, "CORTEX", "ایجنت خودمختار", C.CY)
+    menu_item(30, "QUOTE", "جمله الهام‌بخش", C.CY)
+    menu_item(31, "STATS", "آمار سریع", C.CY)
     print(f"  {C.GY}│{C.R}")
 
     group("POWER")
@@ -1300,6 +1325,12 @@ def main():
                 except Exception as e:
                     print(f"خطا: {e}")
                     pause()
+            elif c == "30":
+                clear()
+                _run_plugin("plugin_quote.py")
+            elif c == "31":
+                clear()
+                _run_plugin("plugin_stats.py")
             else:
                 clear()
                 run_cmd("search", c)

@@ -1,0 +1,145 @@
+{
+  "name": "EvoScanner",
+  "version": "10.0",
+  "updated": "2026-10-07",
+  "description": "سیستم خودمختار جستجو، تحلیل و خودارتقایی دانش",
+  "entry": "panel.py",
+  "launcher": "evo.sh",
+  "modules": {
+    "panel": {
+      "path": "panel.py",
+      "type": "ui",
+      "entry": true,
+      "description": "پنل اصلی ۲۲ گزینه‌ای",
+      "deps": ["engines", "cortex", "selfcare", "autoheal", "health", "panel_test", "deep_test", "advisor", "compare", "project_ideas"]
+    },
+    "cortex": {
+      "path": "cortex.py",
+      "type": "agent",
+      "description": "ایجنت خودمختار",
+      "deps": ["autoheal"]
+    },
+    "engines": {
+      "path": "engines.py",
+      "type": "interface",
+      "description": "رابط موتورهای مستقل"
+    },
+    "selfcare": {
+      "path": "selfcare.py",
+      "type": "tool",
+      "description": "ترمیم / ارتقا / صافی"
+    },
+    "autoheal": {
+      "path": "autoheal.py",
+      "type": "tool",
+      "description": "تشخیص و تعمیر خودکار"
+    },
+    "selfrun": {
+      "path": "selfrun.py",
+      "type": "tool",
+      "description": "چک سلامت قبل اجرا"
+    },
+    "health": {
+      "path": "health.py",
+      "type": "tool",
+      "description": "داشبورد سلامت"
+    },
+    "panel_test": {
+      "path": "panel_test.py",
+      "type": "test",
+      "description": "تست سریع ۱۸ گزینه"
+    },
+    "deep_test": {
+      "path": "deep_test.py",
+      "type": "test",
+      "description": "تست عمیق ۶۵ مسیر"
+    },
+    "evoscanner_v2": {
+      "path": "evoscanner_v2.py",
+      "type": "engine",
+      "description": "موتور جذب دانش"
+    },
+    "learn": {
+      "path": "learn.py",
+      "type": "engine",
+      "description": "یادگیری از منابع"
+    },
+    "graph_web": {
+      "path": "graph_web.py",
+      "type": "web",
+      "description": "گراف SVG سرور"
+    },
+    "api": {
+      "path": "api.py",
+      "type": "web",
+      "description": "API سرور"
+    },
+    "webapp_server": {
+      "path": "webapp/server.py",
+      "type": "web",
+      "description": "وب‌اپ موبایل"
+    }
+  },
+  "engines": {
+    "due": {
+      "path": "~/due/due.py",
+      "external": true,
+      "size_kb": 112,
+      "description": "موتور خودارتقایی ۴۵۵۶ خط"
+    },
+    "knowledgeforge": {
+      "path": "~/knowledgeforge/knowledgeforge.py",
+      "external": true,
+      "size_kb": 48,
+      "description": "دیتابیس دانش SQLite"
+    },
+    "sacred": {
+      "path": "~/sacred/sacred.py",
+      "external": true,
+      "size_kb": 22,
+      "description": "فارسی → کد"
+    },
+    "pqasd": {
+      "path": "~/pqasd/pqasd/PQASD.py",
+      "external": true,
+      "size_kb": 9,
+      "description": "هندسه مقدس + Agda"
+    }
+  },
+  "menu": {
+    "1": {"name": "ASK", "handler": "sub_ask"},
+    "2": {"name": "GET", "handler": "sub_get"},
+    "3": {"name": "LEARN", "handler": "sub_learn"},
+    "4": {"name": "EVOLVE", "handler": "sub_evolve"},
+    "5": {"name": "DATA", "handler": "sub_data"},
+    "6": {"name": "SERVERS", "handler": "sub_servers"},
+    "7": {"name": "GRAPH", "handler": "sub_graph"},
+    "8": {"name": "SOURCES", "handler": "sub_get"},
+    "9": {"name": "IDEAS", "handler": "sub_ask"},
+    "10": {"name": "DASHBOARD", "handler": "sub_dashboard"},
+    "11": {"name": "HISTORY", "handler": "sub_history"},
+    "12": {"name": "SEARCH", "handler": "sub_search"},
+    "13": {"name": "TASKS", "handler": "sub_tasks"},
+    "14": {"name": "SETTINGS", "handler": "sub_settings"},
+    "15": {"name": "ENGINES", "handler": "engines.engines_menu"},
+    "16": {"name": "DUE", "handler": "engines.due_menu"},
+    "17": {"name": "SELF-CARE", "handler": "selfcare.main_menu"},
+    "18": {"name": "AUTO-HEAL", "handler": "autoheal.run"},
+    "19": {"name": "HEALTH", "handler": "health.check"},
+    "20": {"name": "TEST", "handler": "panel_test.main"},
+    "21": {"name": "DEEP-TEST", "handler": "deep_test.main"},
+    "22": {"name": "CORTEX", "handler": "cortex.main_menu"}
+  },
+  "data_files": {
+    "knowledge.db": {"size_mb": 1.7, "type": "sqlite"},
+    "cortex_memory.json": {"type": "state"},
+    ".v10_state.json": {"type": "state"},
+    "panel_history.json": {"type": "state"}
+  },
+  "scripts": {
+    "evo.sh": "راه‌انداز پنل",
+    "pre_run.sh": "آزادسازی پورت‌ها",
+    "safe_edit.sh": "ویرایش امن با بکاپ",
+    "restart.sh": "ریستارت"
+  }
+}

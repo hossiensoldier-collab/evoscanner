@@ -1,0 +1,52 @@
+# ═══════════════════════════════════════════════════
+#  EvoScanner — تنظیمات مرکزی
+#  هر تغییری اینجا بدی، همه‌ی ماژول‌ها می‌خونن
+# ═══════════════════════════════════════════════════
+
+app:
+  name: EvoScanner
+  version: "10.0"
+  theme: dark
+  language: fa
+
+paths:
+  evo: ~/evoscanner
+  due: ~/due
+  forge: ~/knowledgeforge
+  sacred: ~/sacred
+  pqasd: ~/pqasd
+
+network:
+  webapp_port: 8090
+  api_port: 8081
+  graph_port: 8082
+  pqasd_port: 8787
+  timeout: 30
+
+cortex:
+  max_sessions: 50
+  min_score: 60
+  auto_save: true
+
+features:
+  enable_web: true
+  enable_cortex: true
+  enable_selfcare: true
+  enable_graph: true
+  enable_engines: true
+
+backup:
+  auto: true
+  before_edit: true
+  keep_last: 10
+
+logging:
+  level: INFO
+  file: evoscanner.log
+  max_lines: 5000
+
+ui:
+  rtl: true
+  font_size: 14
+  sparkline_width: 30
+  progress_bar_width: 20
